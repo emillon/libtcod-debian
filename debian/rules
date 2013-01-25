@@ -14,3 +14,6 @@
 
 override_dh_auto_build:
 	make -f makefiles/makefile-linux
+
+override_dh_auto_clean:
+	make -f makefiles/makefile-linux clean
