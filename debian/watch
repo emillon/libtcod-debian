@@ -1,4 +1,3 @@
 version=3
-opts=dversionmangle=s/-\d+$// \
   http://doryen.eptalys.net/wp-content/plugins/downloads-manager/upload/ \
   libtcod-(.*)-linux\.tar\.gz
