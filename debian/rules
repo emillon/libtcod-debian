@@ -4,7 +4,7 @@
 	dh $@ 
 
 override_dh_auto_build:
-	make -f makefiles/makefile-linux
+	make -f makefiles/makefile-linux release
 
 override_dh_auto_clean:
 	make -f makefiles/makefile-linux clean
