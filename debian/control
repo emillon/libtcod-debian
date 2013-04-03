@@ -3,6 +3,7 @@ Priority: extra
 Maintainer: Etienne Millon <etienne.millon@gmail.com>
 Build-Depends:
  debhelper (>= 8.0.0),
+ libsdl-dev,
  libx11-dev,
 Standards-Version: 3.9.3
 Section: libs
