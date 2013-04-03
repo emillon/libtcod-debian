@@ -10,7 +10,7 @@ override_dh_auto_clean:
 	make -f makefiles/makefile-linux clean
 
 upstream_version = $(shell dpkg-parsechangelog | sed -rne 's/^Version: ([0-9.]+)(\+dfsg\d+)?.*$$/\1/p')
-dfsg_version = $(upstream_version)+dfsg1
+dfsg_version = $(upstream_version)+dfsg2
 get-orig-source:
 	@if [ ! -e "debian/changelog" ] ; then \
 	    echo 'Run this from the top directory of the Debian source' >&2; \
@@ -21,6 +21,11 @@ get-orig-source:
 	rm libtcod_$(upstream_version).orig.tar.gz
 	mv libtcod-$(upstream_version) libtcod-$(dfsg_version)
 	find libtcod-$(dfsg_version) -name '*.so' -delete
+	rm libtcod-$(dfsg_version)/hmtool
+	rm libtcod-$(dfsg_version)/samples_c
+	rm libtcod-$(dfsg_version)/samples_c_debug
+	rm libtcod-$(dfsg_version)/samples_cpp
+	rm libtcod-$(dfsg_version)/samples_cpp_debug
 	GZIP=--best tar -cz --owner root --group root --mode a+rX \
                         -f libtcod_$(dfsg_version).orig.tar.gz \
                         libtcod-$(dfsg_version)
