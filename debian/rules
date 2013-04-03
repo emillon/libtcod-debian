@@ -14,9 +14,9 @@ override_dh_auto_install:
 	install libtcodxx.so debian/tmp/usr/lib/libtcodxx.so.$(soname)
 	mkdir -p debian/tmp/usr/include
 	install -t debian/tmp/usr/include include/libtcod.h include/libtcod.hpp
-	ln -s debian/tmp/usr/lib/libtcod.so.$(soname) debian/tmp/usr/lib/libtcod.so
-	ln -s debian/tmp/usr/lib/libtcodgui.so.$(soname) debian/tmp/usr/lib/libtcodgui.so
-	ln -s debian/tmp/usr/lib/libtcodxx.so.$(soname) debian/tmp/usr/lib/libtcodxx.so
+	cd debian/tmp/usr/lib ; ln -s libtcod.so.$(soname) libtcod.so
+	cd debian/tmp/usr/lib ; ln -s libtcodgui.so.$(soname) libtcodgui.so
+	cd debian/tmp/usr/lib ; ln -s libtcodxx.so.$(soname) libtcodxx.so
 
 override_dh_auto_clean:
 	make -f makefiles/makefile-linux clean
