@@ -13,7 +13,7 @@ Package: libtcod-dev
 Section: libdevel
 Architecture: any
 Depends:
- libtcodBROKEN (= ${binary:Version})
+ libtcod1 (= ${binary:Version})
 Description: cross-platform library for roguelike developers - development files
  A free, fast, portable and uncomplicated API for roguelike developpers
  providing an advanced true color console, input, and lots of other
@@ -35,7 +35,7 @@ Description: cross-platform library for roguelike developers - development files
  .
  This package contains the development files.
 
-Package: libtcodBROKEN
+Package: libtcod1
 Section: libs
 Architecture: any
 Depends:
