@@ -14,7 +14,7 @@ Section: libdevel
 Architecture: any
 Depends:
  libtcodBROKEN (= ${binary:Version})
-Description: <insert up to 60 chars description>
+Description: cross-platform library for roguelike developers - development files
  <insert long description, indented with spaces>
 
 Package: libtcodBROKEN
@@ -23,5 +23,5 @@ Architecture: any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends}
-Description: <insert up to 60 chars description>
+Description: cross-platform library for roguelike developers
  <insert long description, indented with spaces>
