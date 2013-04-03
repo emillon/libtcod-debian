@@ -7,7 +7,7 @@ Build-Depends:
  libx11-dev,
 Standards-Version: 3.9.3
 Section: libs
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://doryen.eptalys.net/libtcod/
 
 Package: libtcod-dev
 Section: libdevel
