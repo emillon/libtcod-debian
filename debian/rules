@@ -8,7 +8,7 @@ soname=1
 	dh $@ 
 
 override_dh_auto_build:
-	make -f makefiles/makefile-linux release
+	make -f makefiles/makefile-linux release FLAGS="$(CFLAGS)"
 
 override_dh_auto_install:
 	mkdir -p debian/tmp/usr/lib
