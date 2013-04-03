@@ -13,6 +13,7 @@ Package: libtcod-dev
 Section: libdevel
 Architecture: any
 Depends:
+ ${misc:Depends},
  libtcod1 (= ${binary:Version})
 Description: cross-platform library for roguelike developers - development files
  A free, fast, portable and uncomplicated API for roguelike developpers
