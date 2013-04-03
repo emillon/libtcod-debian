@@ -15,7 +15,25 @@ Architecture: any
 Depends:
  libtcodBROKEN (= ${binary:Version})
 Description: cross-platform library for roguelike developers - development files
- <insert long description, indented with spaces>
+ A free, fast, portable and uncomplicated API for roguelike developpers
+ providing an advanced true color console, input, and lots of other
+ utilities frequently used in roguelikes.
+   - keyboard and mouse input
+   - true color console
+   - antialiased bitmap font support
+   - Sub-cell resolution & SDL callback
+   - unicode support
+   - high quality pseudo-random number generator
+   - advanced plain text configuration file parser
+   - bmp and png images support
+   - Perlin noise toolkit
+   - heightmap toolkit
+   - field of view toolkit
+   - path finding toolkit
+   - BSP toolkit
+   - Flexible name generator
+ .
+ This package contains the development files.
 
 Package: libtcodBROKEN
 Section: libs
@@ -24,4 +42,20 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends}
 Description: cross-platform library for roguelike developers
- <insert long description, indented with spaces>
+ A free, fast, portable and uncomplicated API for roguelike developpers
+ providing an advanced true color console, input, and lots of other
+ utilities frequently used in roguelikes.
+   - keyboard and mouse input
+   - true color console
+   - antialiased bitmap font support
+   - Sub-cell resolution & SDL callback
+   - unicode support
+   - high quality pseudo-random number generator
+   - advanced plain text configuration file parser
+   - bmp and png images support
+   - Perlin noise toolkit
+   - heightmap toolkit
+   - field of view toolkit
+   - path finding toolkit
+   - BSP toolkit
+   - Flexible name generator
