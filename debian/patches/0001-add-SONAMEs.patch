@@ -6,11 +6,9 @@ Subject: add SONAMEs
  makefiles/makefile-linux |    6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/makefiles/makefile-linux b/makefiles/makefile-linux
-index 6e84d51..07ddf6b 100644
 --- a/makefiles/makefile-linux
 +++ b/makefiles/makefile-linux
-@@ -134,13 +134,13 @@ libtcodxx.a : $(LIBOBJS_CPP_DEBUG)
+@@ -134,13 +134,13 @@
  	ar r $@ $(LIBOBJS_CPP_DEBUG)
  
  libtcod.so : $(TEMP)/libtcod/release/png $(LIBOBJS_C_RELEASE)

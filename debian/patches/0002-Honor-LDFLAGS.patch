@@ -6,24 +6,22 @@ Subject: Honor LDFLAGS
  makefiles/makefile-linux |    6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/makefiles/makefile-linux b/makefiles/makefile-linux
-index 07ddf6b..54d3076 100644
 --- a/makefiles/makefile-linux
 +++ b/makefiles/makefile-linux
-@@ -134,13 +134,13 @@ libtcodxx.a : $(LIBOBJS_CPP_DEBUG)
+@@ -134,13 +134,13 @@
  	ar r $@ $(LIBOBJS_CPP_DEBUG)
  
  libtcod.so : $(TEMP)/libtcod/release/png $(LIBOBJS_C_RELEASE)
--	gcc -shared -Wl,-soname,libtcod.so.0 -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
-+	gcc -shared -Wl,-soname,libtcod.so.0 $(LDFLAGS) -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
+-	gcc -shared -Wl,-soname,libtcod.so.1 -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
++	gcc -shared -Wl,-soname,libtcod.so.1 $(LDFLAGS) -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
  
  libtcodxx.so : $(TEMP)/libtcod/release/png $(LIBOBJS_CPP_RELEASE)
--	gcc -shared -Wl,-soname,libtcodxx.so.0 -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
-+	gcc -shared -Wl,-soname,libtcodxx.so.0 $(LDFLAGS) -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
+-	gcc -shared -Wl,-soname,libtcodxx.so.1 -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
++	gcc -shared -Wl,-soname,libtcodxx.so.1 $(LDFLAGS) -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
  
  libtcodgui.so : $(TEMP)/libtcod/release/gui $(GUIOBJS_RELEASE)
--	gcc -shared -Wl,-soname,libtcodgui.so.0 -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
-+	gcc -shared -Wl,-soname,libtcodgui.so.0 $(LDFLAGS) -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
+-	gcc -shared -Wl,-soname,libtcodgui.so.1 -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
++	gcc -shared -Wl,-soname,libtcodgui.so.1 $(LDFLAGS) -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
  
  libtcod_debug.so : $(TEMP)/libtcod/debug/png $(LIBOBJS_C_DEBUG)
  	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_C_DEBUG) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
