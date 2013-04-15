@@ -1,6 +1,9 @@
 From: Etienne Millon <me@emillon.org>
-Date: Wed, 3 Apr 2013 14:40:05 +0200
-Subject: Honor LDFLAGS
+Date: Wed, 3 Apr 2013 14:04:51 +0200
+Subject: Setup Makefile
+
+  - use a versioned SONAME for libraries
+  - honor LDFLAGS
 
 ---
  makefiles/makefile-linux |    6 +++---
@@ -12,15 +15,15 @@ Subject: Honor LDFLAGS
  	ar r $@ $(LIBOBJS_CPP_DEBUG)
  
  libtcod.so : $(TEMP)/libtcod/release/png $(LIBOBJS_C_RELEASE)
--	gcc -shared -Wl,-soname,libtcod.so.1 -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
+-	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
 +	gcc -shared -Wl,-soname,libtcod.so.1 $(LDFLAGS) -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
  
  libtcodxx.so : $(TEMP)/libtcod/release/png $(LIBOBJS_CPP_RELEASE)
--	gcc -shared -Wl,-soname,libtcodxx.so.1 -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
+-	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
 +	gcc -shared -Wl,-soname,libtcodxx.so.1 $(LDFLAGS) -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
  
  libtcodgui.so : $(TEMP)/libtcod/release/gui $(GUIOBJS_RELEASE)
--	gcc -shared -Wl,-soname,libtcodgui.so.1 -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
+-	gcc -shared -Wl,-soname,$@ -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
 +	gcc -shared -Wl,-soname,libtcodgui.so.1 $(LDFLAGS) -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
  
  libtcod_debug.so : $(TEMP)/libtcod/debug/png $(LIBOBJS_C_DEBUG)
