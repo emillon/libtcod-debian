@@ -5,7 +5,7 @@ Subject: Setup Makefile
   - use a versioned SONAME for libraries
   - honor LDFLAGS
   - group LIBS together
-  - add -lm, -ldl to LIBS
+  - add missing LIBS
 
 ---
  makefiles/makefile-linux |    6 +++---
@@ -17,7 +17,7 @@ Subject: Setup Makefile
  #OPENGL
  OPENGL_LIB=-lGL
  
-+LIBS=$(ZLIB_LIBS) $(SDL_LIBS) $(OPENGL_LIB) -lm -ldl
++LIBS=$(ZLIB_LIBS) $(SDL_LIBS) $(OPENGL_LIB) -lm -ldl -lX11 -lpthread
 +
  CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi
  TEMP=/tmp
