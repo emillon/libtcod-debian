@@ -4,6 +4,8 @@ Subject: Setup Makefile
 
   - use a versioned SONAME for libraries
   - honor LDFLAGS
+  - group LIBS together
+  - add -lm, -ldl to LIBS
 
 ---
  makefiles/makefile-linux |    6 +++---
@@ -11,12 +13,21 @@ Subject: Setup Makefile
 
 --- a/makefiles/makefile-linux
 +++ b/makefiles/makefile-linux
-@@ -134,13 +134,13 @@
+@@ -16,6 +16,8 @@
+ #OPENGL
+ OPENGL_LIB=-lGL
+ 
++LIBS=$(ZLIB_LIBS) $(SDL_LIBS) $(OPENGL_LIB) -lm -ldl
++
+ CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi
+ TEMP=/tmp
+ CC=gcc
+@@ -134,16 +136,16 @@
  	ar r $@ $(LIBOBJS_CPP_DEBUG)
  
  libtcod.so : $(TEMP)/libtcod/release/png $(LIBOBJS_C_RELEASE)
 -	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
-+	gcc -shared -Wl,-soname,libtcod.so.1 $(LDFLAGS) -o $@ $(LIBOBJS_C_RELEASE) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
++	gcc -shared -Wl,-soname,libtcod.so.1 $(LDFLAGS) -o $@ $(LIBOBJS_C_RELEASE) $(LIBS) $(CFLAGS)
  
  libtcodxx.so : $(TEMP)/libtcod/release/png $(LIBOBJS_CPP_RELEASE)
 -	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_CPP_RELEASE) -L. -ltcod $(CFLAGS)
@@ -27,4 +38,8 @@ Subject: Setup Makefile
 +	gcc -shared -Wl,-soname,libtcodgui.so.1 $(LDFLAGS) -o $@ $(GUIOBJS_RELEASE) -L. -ltcod -ltcodxx $(CFLAGS)
  
  libtcod_debug.so : $(TEMP)/libtcod/debug/png $(LIBOBJS_C_DEBUG)
- 	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_C_DEBUG) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
+-	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_C_DEBUG) $(ZLIB_LIBS) $(SDL_LIBS) $(CFLAGS) $(OPENGL_LIB)
++	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_C_DEBUG) $(LIBS) $(CFLAGS)
+ 
+ libtcodxx_debug.so : $(TEMP)/libtcod/debug/png $(LIBOBJS_CPP_DEBUG)
+ 	gcc -shared -Wl,-soname,$@ -o $@ $(LIBOBJS_CPP_DEBUG) -L. -ltcod_debug $(CFLAGS)
