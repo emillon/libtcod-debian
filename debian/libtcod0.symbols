@@ -881,8 +881,8 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)ToggleButton::~ToggleButton()@Base 1.5.1
  (c++)ToggleButton::~ToggleButton()@Base 1.5.1
  (c++)HBox::computeSize()@Base 1.5.1
- (c++)HBox::HBox(int, int, int)@Base 1.5.1
- (c++)HBox::HBox(int, int, int)@Base 1.5.1
+ (c++)"HBox::HBox(int, int, int)@Base" 1.5.1
+ (c++)"HBox::HBox(int, int, int)@Base" 1.5.1
  (c++)HBox::~HBox()@Base 1.5.1
  (c++)HBox::~HBox()@Base 1.5.1
  (c++)HBox::~HBox()@Base 1.5.1
@@ -891,18 +891,18 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)VBox::~VBox()@Base 1.5.1
  (c++)VBox::~VBox()@Base 1.5.1
  (c++)Image::setBackgroundColor(TCODColor)@Base 1.5.1
- (c++)Image::expand(int, int)@Base 1.5.1
+ (c++)"Image::expand(int, int)@Base" 1.5.1
  (c++)Image::render()@Base 1.5.1
- (c++)Image::Image(int, int, int, int, char const*)@Base 1.5.1
- (c++)Image::Image(int, int, int, int, char const*)@Base 1.5.1
+ (c++)"Image::Image(int, int, int, int, char const*)@Base" 1.5.1
+ (c++)"Image::Image(int, int, int, int, char const*)@Base" 1.5.1
  (c++)Image::~Image()@Base 1.5.1
  (c++)Image::~Image()@Base 1.5.1
  (c++)Image::~Image()@Base 1.5.1
  (c++)Label::computeSize()@Base 1.5.1
- (c++)Label::expand(int, int)@Base 1.5.1
+ (c++)"Label::expand(int, int)@Base" 1.5.1
  (c++)Label::render()@Base 1.5.1
- (c++)Label::Label(int, int, char const*, char const*)@Base 1.5.1
- (c++)Label::Label(int, int, char const*, char const*)@Base 1.5.1
+ (c++)"Label::Label(int, int, char const*, char const*)@Base" 1.5.1
+ (c++)"Label::Label(int, int, char const*, char const*)@Base" 1.5.1
  (c++)Label::~Label()@Base 1.5.1
  (c++)Label::~Label()@Base 1.5.1
  (c++)Label::~Label()@Base 1.5.1
@@ -910,13 +910,13 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)Button::onButtonClick()@Base 1.5.1
  (c++)Button::onButtonPress()@Base 1.5.1
  (c++)Button::onButtonRelease()@Base 1.5.1
- (c++)Button::expand(int, int)@Base 1.5.1
+ (c++)"Button::expand(int, int)@Base" 1.5.1
  (c++)Button::render()@Base 1.5.1
- (c++)Button::setLabel(char const*)@Base 1.5.1
- (c++)Button::Button(char const*, char const*, void (*)(Widget*, void*), void*)@Base 1.5.1
- (c++)Button::Button(int, int, int, int, char const*, char const*, void (*)(Widget*, void*), void*)@Base 1.5.1
- (c++)Button::Button(char const*, char const*, void (*)(Widget*, void*), void*)@Base 1.5.1
- (c++)Button::Button(int, int, int, int, char const*, char const*, void (*)(Widget*, void*), void*)@Base 1.5.1
+ (c++)"Button::setLabel(char const*)@Base" 1.5.1
+ (c++)"Button::Button(char const*, char const*, void (*)(Widget*, void*), void*)@Base" 1.5.1
+ (c++)"Button::Button(int, int, int, int, char const*, char const*, void (*)(Widget*, void*), void*)@Base" 1.5.1
+ (c++)"Button::Button(char const*, char const*, void (*)(Widget*, void*), void*)@Base" 1.5.1
+ (c++)"Button::Button(int, int, int, int, char const*, char const*, void (*)(Widget*, void*), void*)@Base" 1.5.1
  (c++)Button::~Button()@Base 1.5.1
  (c++)Button::~Button()@Base 1.5.1
  (c++)Button::~Button()@Base 1.5.1
@@ -927,9 +927,9 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)Slider::render()@Base 1.5.1
  (c++)Slider::update(TCOD_key_t)@Base 1.5.1
  (c++)Slider::setValue(float)@Base 1.5.1
- (c++)Slider::setFormat(char const*)@Base 1.5.1
- (c++)Slider::Slider(int, int, int, float, float, char const*, char const*)@Base 1.5.1
- (c++)Slider::Slider(int, int, int, float, float, char const*, char const*)@Base 1.5.1
+ (c++)"Slider::setFormat(char const*)@Base" 1.5.1
+ (c++)"Slider::Slider(int, int, int, float, float, char const*, char const*)@Base" 1.5.1
+ (c++)"Slider::Slider(int, int, int, float, float, char const*, char const*)@Base" 1.5.1
  (c++)Slider::~Slider()@Base 1.5.1
  (c++)Slider::~Slider()@Base 1.5.1
  (c++)Slider::~Slider()@Base 1.5.1
@@ -941,31 +941,31 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)Widget::onButtonClick()@Base 1.5.1
  (c++)Widget::onButtonPress()@Base 1.5.1
  (c++)Widget::renderWidgets()@Base 1.5.1
- (c++)Widget::updateWidgets(TCOD_key_t, TCOD_mouse_t)@Base 1.5.1
+ (c++)"Widget::updateWidgets(TCOD_key_t, TCOD_mouse_t)@Base" 1.5.1
  (c++)Widget::onButtonRelease()@Base 1.5.1
- (c++)Widget::setBackgroundColor(TCODColor, TCODColor)@Base 1.5.1
- (c++)Widget::setForegroundColor(TCODColor, TCODColor)@Base 1.5.1
+ (c++)"Widget::setBackgroundColor(TCODColor, TCODColor)@Base" 1.5.1
+ (c++)"Widget::setForegroundColor(TCODColor, TCODColor)@Base" 1.5.1
  (c++)Widget::updateWidgetsIntern(TCOD_key_t)@Base 1.5.1
  (c++)Widget::con@Base 1.5.1
  (c++)Widget::back@Base 1.5.1
  (c++)Widget::fore@Base 1.5.1
- (c++)Widget::move(int, int)@Base 1.5.1
+ (c++)"Widget::move(int, int)@Base" 1.5.1
  (c++)Widget::focus@Base 1.5.1
  (c++)Widget::mouse@Base 1.5.1
- (c++)Widget::expand(int, int)@Base 1.5.1
+ (c++)"Widget::expand(int, int)@Base" 1.5.1
  (c++)Widget::render()@Base 1.5.1
- (c++)Widget::setTip(char const*)@Base 1.5.1
+ (c++)"Widget::setTip(char const*)@Base" 1.5.1
  (c++)Widget::update(TCOD_key_t)@Base 1.5.1
  (c++)Widget::elapsed@Base 1.5.1
  (c++)Widget::widgets@Base 1.5.1
  (c++)Widget::backFocus@Base 1.5.1
  (c++)Widget::foreFocus@Base 1.5.1
  (c++)Widget::onMouseIn()@Base 1.5.1
- (c++)Widget::Widget(int, int)@Base 1.5.1
- (c++)Widget::Widget(int, int, int, int)@Base 1.5.1
+ (c++)"Widget::Widget(int, int)@Base" 1.5.1
+ (c++)"Widget::Widget(int, int, int, int)@Base" 1.5.1
  (c++)Widget::Widget()@Base 1.5.1
- (c++)Widget::Widget(int, int)@Base 1.5.1
- (c++)Widget::Widget(int, int, int, int)@Base 1.5.1
+ (c++)"Widget::Widget(int, int)@Base" 1.5.1
+ (c++)"Widget::Widget(int, int, int, int)@Base" 1.5.1
  (c++)Widget::Widget()@Base 1.5.1
  (c++)Widget::~Widget()@Base 1.5.1
  (c++)Widget::~Widget()@Base 1.5.1
@@ -974,20 +974,20 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)TextBox::onButtonClick()@Base 1.5.1
  (c++)TextBox::render()@Base 1.5.1
  (c++)TextBox::update(TCOD_key_t)@Base 1.5.1
- (c++)TextBox::setText(char const*)@Base 1.5.1
- (c++)TextBox::TextBox(int, int, int, int, char const*, char const*, char const*)@Base 1.5.1
- (c++)TextBox::TextBox(int, int, int, int, char const*, char const*, char const*)@Base 1.5.1
+ (c++)"TextBox::setText(char const*)@Base" 1.5.1
+ (c++)"TextBox::TextBox(int, int, int, int, char const*, char const*, char const*)@Base" 1.5.1
+ (c++)"TextBox::TextBox(int, int, int, int, char const*, char const*, char const*)@Base" 1.5.1
  (c++)TextBox::~TextBox()@Base 1.5.1
  (c++)TextBox::~TextBox()@Base 1.5.1
  (c++)TextBox::~TextBox()@Base 1.5.1
  (c++)ToolBar::computeSize()@Base 1.5.1
- (c++)ToolBar::addSeparator(char const*, char const*)@Base 1.5.1
+ (c++)"ToolBar::addSeparator(char const*, char const*)@Base" 1.5.1
  (c++)ToolBar::render()@Base 1.5.1
- (c++)ToolBar::setName(char const*)@Base 1.5.1
- (c++)ToolBar::ToolBar(int, int, char const*, char const*)@Base 1.5.1
- (c++)ToolBar::ToolBar(int, int, int, char const*, char const*)@Base 1.5.1
- (c++)ToolBar::ToolBar(int, int, char const*, char const*)@Base 1.5.1
- (c++)ToolBar::ToolBar(int, int, int, char const*, char const*)@Base 1.5.1
+ (c++)"ToolBar::setName(char const*)@Base" 1.5.1
+ (c++)"ToolBar::ToolBar(int, int, char const*, char const*)@Base" 1.5.1
+ (c++)"ToolBar::ToolBar(int, int, int, char const*, char const*)@Base" 1.5.1
+ (c++)"ToolBar::ToolBar(int, int, char const*, char const*)@Base" 1.5.1
+ (c++)"ToolBar::ToolBar(int, int, int, char const*, char const*)@Base" 1.5.1
  (c++)ToolBar::~ToolBar()@Base 1.5.1
  (c++)ToolBar::~ToolBar()@Base 1.5.1
  (c++)ToolBar::~ToolBar()@Base 1.5.1
@@ -996,10 +996,10 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)FlatList::onButtonClick()@Base 1.5.1
  (c++)FlatList::render()@Base 1.5.1
  (c++)FlatList::update(TCOD_key_t)@Base 1.5.1
- (c++)FlatList::setList(char const**)@Base 1.5.1
- (c++)FlatList::setValue(char const*)@Base 1.5.1
- (c++)FlatList::FlatList(int, int, int, char const**, char const*, char const*)@Base 1.5.1
- (c++)FlatList::FlatList(int, int, int, char const**, char const*, char const*)@Base 1.5.1
+ (c++)"FlatList::setList(char const**)@Base" 1.5.1
+ (c++)"FlatList::setValue(char const*)@Base" 1.5.1
+ (c++)"FlatList::FlatList(int, int, int, char const**, char const*, char const*)@Base" 1.5.1
+ (c++)"FlatList::FlatList(int, int, int, char const**, char const*, char const*)@Base" 1.5.1
  (c++)FlatList::~FlatList()@Base 1.5.1
  (c++)FlatList::~FlatList()@Base 1.5.1
  (c++)FlatList::~FlatList()@Base 1.5.1
@@ -1016,7 +1016,7 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)Container::~Container()@Base 1.5.1
  (c++)Container::~Container()@Base 1.5.1
  (c++)Separator::computeSize()@Base 1.5.1
- (c++)Separator::expand(int, int)@Base 1.5.1
+ (c++)"Separator::expand(int, int)@Base" 1.5.1
  (c++)Separator::render()@Base 1.5.1
  (c++)Separator::~Separator()@Base 1.5.1
  (c++)Separator::~Separator()@Base 1.5.1
@@ -1025,96 +1025,96 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)StatusBar::~StatusBar()@Base 1.5.1
  (c++)StatusBar::~StatusBar()@Base 1.5.1
  (c++)StatusBar::~StatusBar()@Base 1.5.1
- (c++)typeinfo for RadioButton@Base 1.5.1
- (c++)typeinfo for ToggleButton@Base 1.5.1
- (c++)typeinfo for HBox@Base 1.5.1
- (c++)typeinfo for VBox@Base 1.5.1
- (c++)typeinfo for Image@Base 1.5.1
- (c++)typeinfo for Label@Base 1.5.1
- (c++)typeinfo for Button@Base 1.5.1
- (c++)typeinfo for Slider@Base 1.5.1
- (c++)typeinfo for Widget@Base 1.5.1
- (c++)typeinfo for TextBox@Base 1.5.1
- (c++)typeinfo for ToolBar@Base 1.5.1
- (c++)typeinfo for FlatList@Base 1.5.1
- (c++)typeinfo for TCODList<Widget*>@Base 1.5.1
- (c++)typeinfo for Container@Base 1.5.1
- (c++)typeinfo for Separator@Base 1.5.1
- (c++)typeinfo for StatusBar@Base 1.5.1
- (c++)typeinfo name for RadioButton@Base 1.5.1
- (c++)typeinfo name for ToggleButton@Base 1.5.1
- (c++)typeinfo name for HBox@Base 1.5.1
- (c++)typeinfo name for VBox@Base 1.5.1
- (c++)typeinfo name for Image@Base 1.5.1
- (c++)typeinfo name for Label@Base 1.5.1
- (c++)typeinfo name for Button@Base 1.5.1
- (c++)typeinfo name for Slider@Base 1.5.1
- (c++)typeinfo name for Widget@Base 1.5.1
- (c++)typeinfo name for TextBox@Base 1.5.1
- (c++)typeinfo name for ToolBar@Base 1.5.1
- (c++)typeinfo name for FlatList@Base 1.5.1
- (c++)typeinfo name for TCODList<Widget*>@Base 1.5.1
- (c++)typeinfo name for Container@Base 1.5.1
- (c++)typeinfo name for Separator@Base 1.5.1
- (c++)typeinfo name for StatusBar@Base 1.5.1
- (c++)vtable for RadioButton@Base 1.5.1
- (c++)vtable for ToggleButton@Base 1.5.1
- (c++)vtable for HBox@Base 1.5.1
- (c++)vtable for VBox@Base 1.5.1
- (c++)vtable for Image@Base 1.5.1
- (c++)vtable for Label@Base 1.5.1
- (c++)vtable for Button@Base 1.5.1
- (c++)vtable for Slider@Base 1.5.1
- (c++)vtable for Widget@Base 1.5.1
- (c++)vtable for TextBox@Base 1.5.1
- (c++)vtable for ToolBar@Base 1.5.1
- (c++)vtable for FlatList@Base 1.5.1
- (c++)vtable for TCODList<Widget*>@Base 1.5.1
- (c++)vtable for Container@Base 1.5.1
- (c++)vtable for Separator@Base 1.5.1
- (c++)vtable for StatusBar@Base 1.5.1
+ (c++)"typeinfo for RadioButton@Base" 1.5.1
+ (c++)"typeinfo for ToggleButton@Base" 1.5.1
+ (c++)"typeinfo for HBox@Base" 1.5.1
+ (c++)"typeinfo for VBox@Base" 1.5.1
+ (c++)"typeinfo for Image@Base" 1.5.1
+ (c++)"typeinfo for Label@Base" 1.5.1
+ (c++)"typeinfo for Button@Base" 1.5.1
+ (c++)"typeinfo for Slider@Base" 1.5.1
+ (c++)"typeinfo for Widget@Base" 1.5.1
+ (c++)"typeinfo for TextBox@Base" 1.5.1
+ (c++)"typeinfo for ToolBar@Base" 1.5.1
+ (c++)"typeinfo for FlatList@Base" 1.5.1
+ (c++)"typeinfo for TCODList<Widget*>@Base" 1.5.1
+ (c++)"typeinfo for Container@Base" 1.5.1
+ (c++)"typeinfo for Separator@Base" 1.5.1
+ (c++)"typeinfo for StatusBar@Base" 1.5.1
+ (c++)"typeinfo name for RadioButton@Base" 1.5.1
+ (c++)"typeinfo name for ToggleButton@Base" 1.5.1
+ (c++)"typeinfo name for HBox@Base" 1.5.1
+ (c++)"typeinfo name for VBox@Base" 1.5.1
+ (c++)"typeinfo name for Image@Base" 1.5.1
+ (c++)"typeinfo name for Label@Base" 1.5.1
+ (c++)"typeinfo name for Button@Base" 1.5.1
+ (c++)"typeinfo name for Slider@Base" 1.5.1
+ (c++)"typeinfo name for Widget@Base" 1.5.1
+ (c++)"typeinfo name for TextBox@Base" 1.5.1
+ (c++)"typeinfo name for ToolBar@Base" 1.5.1
+ (c++)"typeinfo name for FlatList@Base" 1.5.1
+ (c++)"typeinfo name for TCODList<Widget*>@Base" 1.5.1
+ (c++)"typeinfo name for Container@Base" 1.5.1
+ (c++)"typeinfo name for Separator@Base" 1.5.1
+ (c++)"typeinfo name for StatusBar@Base" 1.5.1
+ (c++)"vtable for RadioButton@Base" 1.5.1
+ (c++)"vtable for ToggleButton@Base" 1.5.1
+ (c++)"vtable for HBox@Base" 1.5.1
+ (c++)"vtable for VBox@Base" 1.5.1
+ (c++)"vtable for Image@Base" 1.5.1
+ (c++)"vtable for Label@Base" 1.5.1
+ (c++)"vtable for Button@Base" 1.5.1
+ (c++)"vtable for Slider@Base" 1.5.1
+ (c++)"vtable for Widget@Base" 1.5.1
+ (c++)"vtable for TextBox@Base" 1.5.1
+ (c++)"vtable for ToolBar@Base" 1.5.1
+ (c++)"vtable for FlatList@Base" 1.5.1
+ (c++)"vtable for TCODList<Widget*>@Base" 1.5.1
+ (c++)"vtable for Container@Base" 1.5.1
+ (c++)"vtable for Separator@Base" 1.5.1
+ (c++)"vtable for StatusBar@Base" 1.5.1
 libtcodxx.so.0 libtcod0 #MINVER#
- (c++)TCOD_CRenderer@Base 1.5.1
- (c++)TCOD_path_func(int, int, int, int, void*)@Base 1.5.1
- (c++)TCODParser::newStructure(char const*)@Base 1.5.1
- (c++)TCODParser::newCustomType(TCOD_value_t (*)(TCOD_lex_t*, TCOD_parser_listener_t*, void*, char*))@Base 1.5.1
- (c++)TCODParser::run(char const*, ITCODParserListener*)@Base 1.5.1
- (c++)TCODParser::error(char const*, ...)@Base 1.5.1
+ TCOD_CRenderer@Base 1.5.1
+ (c++)"TCOD_path_func(int, int, int, int, void*)@Base" 1.5.1
+ (c++)"TCODParser::newStructure(char const*)@Base" 1.5.1
+ (c++)"TCODParser::newCustomType(TCOD_value_t (*)(TCOD_lex_t*, TCOD_parser_listener_t*, void*, char*))@Base" 1.5.1
+ (c++)"TCODParser::run(char const*, ITCODParserListener*)@Base" 1.5.1
+ (c++)"TCODParser::error(char const*, ...)@Base" 1.5.1
  (c++)TCODParser::TCODParser()@Base 1.5.1
  (c++)TCODParser::TCODParser()@Base 1.5.1
  (c++)TCODRandom::getInstance()@Base 1.5.1
- (c++)TCODRandom::restore(TCODRandom const*)@Base 1.5.1
- (c++)TCODRandom::TCODRandom(TCOD_random_algo_t, bool)@Base 1.5.1
- (c++)TCODRandom::TCODRandom(unsigned int, TCOD_random_algo_t)@Base 1.5.1
- (c++)TCODRandom::TCODRandom(TCOD_random_algo_t, bool)@Base 1.5.1
- (c++)TCODRandom::TCODRandom(unsigned int, TCOD_random_algo_t)@Base 1.5.1
+ (c++)"TCODRandom::restore(TCODRandom const*)@Base" 1.5.1
+ (c++)"TCODRandom::TCODRandom(TCOD_random_algo_t, bool)@Base" 1.5.1
+ (c++)"TCODRandom::TCODRandom(unsigned int, TCOD_random_algo_t)@Base" 1.5.1
+ (c++)"TCODRandom::TCODRandom(TCOD_random_algo_t, bool)@Base" 1.5.1
+ (c++)"TCODRandom::TCODRandom(unsigned int, TCOD_random_algo_t)@Base" 1.5.1
  (c++)TCODRandom::~TCODRandom()@Base 1.5.1
  (c++)TCODRandom::~TCODRandom()@Base 1.5.1
  (c++)TCODRandom::~TCODRandom()@Base 1.5.1
- (c++)TCODSystem::deleteFile(char const*)@Base 1.5.1
- (c++)TCODSystem::fileExists(char const*, ...)@Base 1.5.1
- (c++)TCODSystem::sleepMilli(unsigned int)@Base 1.5.1
- (c++)TCODSystem::updateChar(int, int, int, TCODImage const*, int, int)@Base 1.5.1
+ (c++)"TCODSystem::deleteFile(char const*)@Base" 1.5.1
+ (c++)"TCODSystem::fileExists(char const*, ...)@Base" 1.5.1
+ (c++)"TCODSystem::sleepMilli(unsigned int)@Base" 1.5.1
+ (c++)"TCODSystem::updateChar(int, int, int, TCODImage const*, int, int)@Base" 1.5.1
  (c++)TCODSystem::waitThread(void*)@Base 1.5.1
  (c++)TCODSystem::deleteMutex(void*)@Base 1.5.1
- (c++)TCODSystem::getCharSize(int*, int*)@Base 1.5.1
+ (c++)"TCODSystem::getCharSize(int*, int*)@Base" 1.5.1
  (c++)TCODSystem::getNumCores()@Base 1.5.1
  (c++)TCODSystem::getRenderer()@Base 1.5.1
- (c++)TCODSystem::isDirectory(char const*)@Base 1.5.1
+ (c++)"TCODSystem::isDirectory(char const*)@Base" 1.5.1
  (c++)TCODSystem::setRenderer(TCOD_renderer_t)@Base 1.5.1
  (c++)TCODSystem::deleteThread(void*)@Base 1.5.1
  (c++)TCODSystem::getClipboard()@Base 1.5.1
  (c++)TCODSystem::newCondition()@Base 1.5.1
  (c++)TCODSystem::newSemaphore(int)@Base 1.5.1
- (c++)TCODSystem::setClipboard(char const*)@Base 1.5.1
- (c++)TCODSystem::waitForEvent(int, TCOD_key_t*, TCOD_mouse_t*, bool)@Base 1.5.1
- (c++)TCODSystem::checkForEvent(int, TCOD_key_t*, TCOD_mouse_t*)@Base 1.5.1
+ (c++)"TCODSystem::setClipboard(char const*)@Base" 1.5.1
+ (c++)"TCODSystem::waitForEvent(int, TCOD_key_t*, TCOD_mouse_t*, bool)@Base" 1.5.1
+ (c++)"TCODSystem::checkForEvent(int, TCOD_key_t*, TCOD_mouse_t*)@Base" 1.5.1
  (c++)TCODSystem::lockSemaphore(void*)@Base 1.5.1
- (c++)TCODSystem::waitCondition(void*, void*)@Base 1.5.1
- (c++)TCODSystem::saveScreenshot(char const*)@Base 1.5.1
- (c++)TCODSystem::createDirectory(char const*)@Base 1.5.1
+ (c++)"TCODSystem::waitCondition(void*, void*)@Base" 1.5.1
+ (c++)"TCODSystem::saveScreenshot(char const*)@Base" 1.5.1
+ (c++)"TCODSystem::createDirectory(char const*)@Base" 1.5.1
  (c++)TCODSystem::deleteCondition(void*)@Base 1.5.1
- (c++)TCODSystem::deleteDirectory(char const*)@Base 1.5.1
+ (c++)"TCODSystem::deleteDirectory(char const*)@Base" 1.5.1
  (c++)TCODSystem::deleteSemaphore(void*)@Base 1.5.1
  (c++)TCODSystem::getElapsedMilli()@Base 1.5.1
  (c++)TCODSystem::signalCondition(void*)@Base 1.5.1
@@ -1122,218 +1122,218 @@ libtcodxx.so.0 libtcod0 #MINVER#
  (c++)TCODSystem::getElapsedSeconds()@Base 1.5.1
  (c++)TCODSystem::broadcastCondition(void*)@Base 1.5.1
  (c++)TCODSystem::getLastFrameLength()@Base 1.5.1
- (c++)TCODSystem::getDirectoryContent(char const*, char const*)@Base 1.5.1
+ (c++)"TCODSystem::getDirectoryContent(char const*, char const*)@Base" 1.5.1
  (c++)TCODSystem::registerSDLRenderer(ITCODSDLRenderer*)@Base 1.5.1
- (c++)TCODSystem::getCurrentResolution(int*, int*)@Base 1.5.1
- (c++)TCODSystem::getFullscreenOffsets(int*, int*)@Base 1.5.1
- (c++)TCODSystem::forceFullscreenResolution(int, int)@Base 1.5.1
+ (c++)"TCODSystem::getCurrentResolution(int*, int*)@Base" 1.5.1
+ (c++)"TCODSystem::getFullscreenOffsets(int*, int*)@Base" 1.5.1
+ (c++)"TCODSystem::forceFullscreenResolution(int, int)@Base" 1.5.1
  (c++)TCODSystem::getFps()@Base 1.5.1
  (c++)TCODSystem::setFps(int)@Base 1.5.1
  (c++)TCODSystem::mutexIn(void*)@Base 1.5.1
  (c++)TCODSystem::mutexOut(void*)@Base 1.5.1
  (c++)TCODSystem::newMutex()@Base 1.5.1
- (c++)TCODSystem::readFile(char const*, unsigned char**, unsigned int*)@Base 1.5.1
- (c++)TCODSystem::newThread(int (*)(void*), void*)@Base 1.5.1
- (c++)TCODSystem::writeFile(char const*, unsigned char*, unsigned int)@Base 1.5.1
- (c++)TCODConsole::printFrame(int, int, int, int, bool, TCOD_bkgnd_flag_t, char const*, ...)@Base 1.5.1
- (c++)TCODConsole::printRectEx(int, int, int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, char const*, ...)@Base 1.5.1
- (c++)TCODConsole::printRectEx(int, int, int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, wchar_t const*, ...)@Base 1.5.1
- (c++)TCODConsole::setKeyColor(TCODColor const&)@Base 1.5.1
+ (c++)"TCODSystem::readFile(char const*, unsigned char**, unsigned int*)@Base" 1.5.1
+ (c++)"TCODSystem::newThread(int (*)(void*), void*)@Base" 1.5.1
+ (c++)"TCODSystem::writeFile(char const*, unsigned char*, unsigned int)@Base" 1.5.1
+ (c++)"TCODConsole::printFrame(int, int, int, int, bool, TCOD_bkgnd_flag_t, char const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::printRectEx(int, int, int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, char const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::printRectEx(int, int, int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, wchar_t const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::setKeyColor(TCODColor const&)@Base" 1.5.1
  (c++)TCODConsole::isFullscreen()@Base 1.5.1
  (c++)TCODConsole::isKeyPressed(TCOD_keycode_t)@Base 1.5.1
  (c++)TCODConsole::resetCredits()@Base 1.5.1
  (c++)TCODConsole::setAlignment(TCOD_alignment_t)@Base 1.5.1
- (c++)TCODConsole::getHeightRect(int, int, int, int, char const*, ...)@Base 1.5.1
- (c++)TCODConsole::getHeightRect(int, int, int, int, wchar_t const*, ...)@Base 1.5.1
- (c++)TCODConsole::renderCredits(int, int, bool)@Base 1.5.1
- (c++)TCODConsole::setCustomFont(char const*, int, int, int)@Base 1.5.1
+ (c++)"TCODConsole::getHeightRect(int, int, int, int, char const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::getHeightRect(int, int, int, int, wchar_t const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::renderCredits(int, int, bool)@Base" 1.5.1
+ (c++)"TCODConsole::setCustomFont(char const*, int, int, int)@Base" 1.5.1
  (c++)TCODConsole::setFullscreen(bool)@Base 1.5.1
  (c++)TCODConsole::getFadingColor()@Base 1.5.1
  (c++)TCODConsole::isWindowClosed()@Base 1.5.1
- (c++)TCODConsole::setWindowTitle(char const*)@Base 1.5.1
- (c++)TCODConsole::mapStringToFont(char const*, int, int)@Base 1.5.1
- (c++)TCODConsole::mapStringToFont(wchar_t const*, int, int)@Base 1.5.1
- (c++)TCODConsole::setColorControl(TCOD_colctrl_t, TCODColor const&, TCODColor const&)@Base 1.5.1
+ (c++)"TCODConsole::setWindowTitle(char const*)@Base" 1.5.1
+ (c++)"TCODConsole::mapStringToFont(char const*, int, int)@Base" 1.5.1
+ (c++)"TCODConsole::mapStringToFont(wchar_t const*, int, int)@Base" 1.5.1
+ (c++)"TCODConsole::setColorControl(TCOD_colctrl_t, TCODColor const&, TCODColor const&)@Base" 1.5.1
  (c++)TCODConsole::waitForKeypress(bool)@Base 1.5.1
  (c++)TCODConsole::checkForKeypress(int)@Base 1.5.1
  (c++)TCODConsole::setBackgroundFlag(TCOD_bkgnd_flag_t)@Base 1.5.1
- (c++)TCODConsole::setCharBackground(int, int, TCODColor const&, TCOD_bkgnd_flag_t)@Base 1.5.1
- (c++)TCODConsole::setCharForeground(int, int, TCODColor const&)@Base 1.5.1
- (c++)TCODConsole::setKeyboardRepeat(int, int)@Base 1.5.1
- (c++)TCODConsole::mapAsciiCodeToFont(int, int, int)@Base 1.5.1
- (c++)TCODConsole::mapAsciiCodesToFont(int, int, int, int)@Base 1.5.1
+ (c++)"TCODConsole::setCharBackground(int, int, TCODColor const&, TCOD_bkgnd_flag_t)@Base" 1.5.1
+ (c++)"TCODConsole::setCharForeground(int, int, TCODColor const&)@Base" 1.5.1
+ (c++)"TCODConsole::setKeyboardRepeat(int, int)@Base" 1.5.1
+ (c++)"TCODConsole::mapAsciiCodeToFont(int, int, int)@Base" 1.5.1
+ (c++)"TCODConsole::mapAsciiCodesToFont(int, int, int, int)@Base" 1.5.1
  (c++)TCODConsole::setDefaultBackground(TCODColor)@Base 1.5.1
  (c++)TCODConsole::setDefaultForeground(TCODColor)@Base 1.5.1
  (c++)TCODConsole::disableKeyboardRepeat()@Base 1.5.1
  (c++)TCODConsole::getColorControlString(TCOD_colctrl_t)@Base 1.5.1
- (c++)TCODConsole::getRGBColorControlString(TCOD_colctrl_t, TCODColor const&)@Base 1.5.1
- (c++)TCODConsole::blit(TCODConsole const*, int, int, int, int, TCODConsole*, int, int, float, float)@Base 1.5.1
- (c++)TCODConsole::rect(int, int, int, int, bool, TCOD_bkgnd_flag_t)@Base 1.5.1
+ (c++)"TCODConsole::getRGBColorControlString(TCOD_colctrl_t, TCODColor const&)@Base" 1.5.1
+ (c++)"TCODConsole::blit(TCODConsole const*, int, int, int, int, TCODConsole*, int, int, float, float)@Base" 1.5.1
+ (c++)"TCODConsole::rect(int, int, int, int, bool, TCOD_bkgnd_flag_t)@Base" 1.5.1
  (c++)TCODConsole::root@Base 1.5.1
  (c++)TCODConsole::clear()@Base 1.5.1
  (c++)TCODConsole::flush()@Base 1.5.1
- (c++)TCODConsole::hline(int, int, int, TCOD_bkgnd_flag_t)@Base 1.5.1
- (c++)TCODConsole::print(int, int, char const*, ...)@Base 1.5.1
- (c++)TCODConsole::print(int, int, wchar_t const*, ...)@Base 1.5.1
- (c++)TCODConsole::vline(int, int, int, TCOD_bkgnd_flag_t)@Base 1.5.1
+ (c++)"TCODConsole::hline(int, int, int, TCOD_bkgnd_flag_t)@Base" 1.5.1
+ (c++)"TCODConsole::print(int, int, char const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::print(int, int, wchar_t const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::vline(int, int, int, TCOD_bkgnd_flag_t)@Base" 1.5.1
  (c++)TCODConsole::credits()@Base 1.5.1
  (c++)TCODConsole::getFade()@Base 1.5.1
- (c++)TCODConsole::loadApf(char const*)@Base 1.5.1
- (c++)TCODConsole::loadAsc(char const*)@Base 1.5.1
- (c++)TCODConsole::printEx(int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, char const*, ...)@Base 1.5.1
- (c++)TCODConsole::printEx(int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, wchar_t const*, ...)@Base 1.5.1
- (c++)TCODConsole::putChar(int, int, int, TCOD_bkgnd_flag_t)@Base 1.5.1
- (c++)TCODConsole::setChar(int, int, int)@Base 1.5.1
- (c++)TCODConsole::setFade(unsigned char, TCODColor const&)@Base 1.5.1
- (c++)TCODConsole::initRoot(int, int, char const*, bool, TCOD_renderer_t)@Base 1.5.1
- (c++)TCODConsole::setDirty(int, int, int, int)@Base 1.5.1
- (c++)TCODConsole::printRect(int, int, int, int, char const*, ...)@Base 1.5.1
- (c++)TCODConsole::printRect(int, int, int, int, wchar_t const*, ...)@Base 1.5.1
- (c++)TCODConsole::putCharEx(int, int, int, TCODColor const&, TCODColor const&)@Base 1.5.1
- (c++)TCODConsole::TCODConsole(char const*)@Base 1.5.1
- (c++)TCODConsole::TCODConsole(int, int)@Base 1.5.1
+ (c++)"TCODConsole::loadApf(char const*)@Base" 1.5.1
+ (c++)"TCODConsole::loadAsc(char const*)@Base" 1.5.1
+ (c++)"TCODConsole::printEx(int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, char const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::printEx(int, int, TCOD_bkgnd_flag_t, TCOD_alignment_t, wchar_t const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::putChar(int, int, int, TCOD_bkgnd_flag_t)@Base" 1.5.1
+ (c++)"TCODConsole::setChar(int, int, int)@Base" 1.5.1
+ (c++)"TCODConsole::setFade(unsigned char, TCODColor const&)@Base" 1.5.1
+ (c++)"TCODConsole::initRoot(int, int, char const*, bool, TCOD_renderer_t)@Base" 1.5.1
+ (c++)"TCODConsole::setDirty(int, int, int, int)@Base" 1.5.1
+ (c++)"TCODConsole::printRect(int, int, int, int, char const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::printRect(int, int, int, int, wchar_t const*, ...)@Base" 1.5.1
+ (c++)"TCODConsole::putCharEx(int, int, int, TCODColor const&, TCODColor const&)@Base" 1.5.1
+ (c++)"TCODConsole::TCODConsole(char const*)@Base" 1.5.1
+ (c++)"TCODConsole::TCODConsole(int, int)@Base" 1.5.1
  (c++)TCODConsole::TCODConsole()@Base 1.5.1
- (c++)TCODConsole::TCODConsole(char const*)@Base 1.5.1
- (c++)TCODConsole::TCODConsole(int, int)@Base 1.5.1
+ (c++)"TCODConsole::TCODConsole(char const*)@Base" 1.5.1
+ (c++)"TCODConsole::TCODConsole(int, int)@Base" 1.5.1
  (c++)TCODConsole::TCODConsole()@Base 1.5.1
  (c++)TCODConsole::~TCODConsole()@Base 1.5.1
  (c++)TCODConsole::~TCODConsole()@Base 1.5.1
  (c++)TCODConsole::~TCODConsole()@Base 1.5.1
- (c++)TCODNamegen::generateCustom(char*, char*, bool)@Base 1.5.1
- (c++)TCODNamegen::parse(char const*, TCODRandom*)@Base 1.5.1
+ (c++)"TCODNamegen::generateCustom(char*, char*, bool)@Base" 1.5.1
+ (c++)"TCODNamegen::parse(char const*, TCODRandom*)@Base" 1.5.1
  (c++)TCODNamegen::destroy()@Base 1.5.1
  (c++)TCODNamegen::getSets()@Base 1.5.1
- (c++)TCODNamegen::generate(char*, bool)@Base 1.5.1
- (c++)TCODDijkstra::getDistance(int, int)@Base 1.5.1
- (c++)TCODDijkstra::walk(int*, int*)@Base 1.5.1
- (c++)TCODDijkstra::compute(int, int)@Base 1.5.1
+ (c++)"TCODNamegen::generate(char*, bool)@Base" 1.5.1
+ (c++)"TCODDijkstra::getDistance(int, int)@Base" 1.5.1
+ (c++)"TCODDijkstra::walk(int*, int*)@Base" 1.5.1
+ (c++)"TCODDijkstra::compute(int, int)@Base" 1.5.1
  (c++)TCODDijkstra::reverse()@Base 1.5.1
- (c++)TCODDijkstra::setPath(int, int)@Base 1.5.1
- (c++)TCODDijkstra::TCODDijkstra(TCODMap*, float)@Base 1.5.1
- (c++)TCODDijkstra::TCODDijkstra(int, int, ITCODPathCallback const*, void*, float)@Base 1.5.1
- (c++)TCODDijkstra::TCODDijkstra(TCODMap*, float)@Base 1.5.1
- (c++)TCODDijkstra::TCODDijkstra(int, int, ITCODPathCallback const*, void*, float)@Base 1.5.1
+ (c++)"TCODDijkstra::setPath(int, int)@Base" 1.5.1
+ (c++)"TCODDijkstra::TCODDijkstra(TCODMap*, float)@Base" 1.5.1
+ (c++)"TCODDijkstra::TCODDijkstra(int, int, ITCODPathCallback const*, void*, float)@Base" 1.5.1
+ (c++)"TCODDijkstra::TCODDijkstra(TCODMap*, float)@Base" 1.5.1
+ (c++)"TCODDijkstra::TCODDijkstra(int, int, ITCODPathCallback const*, void*, float)@Base" 1.5.1
  (c++)TCODDijkstra::~TCODDijkstra()@Base 1.5.1
  (c++)TCODDijkstra::~TCODDijkstra()@Base 1.5.1
- (c++)TCODHeightMap::addVoronoi(int, int, float const*, TCODRandom*)@Base 1.5.1
- (c++)TCODHeightMap::rainErosion(int, float, float, TCODRandom*)@Base 1.5.1
- (c++)TCODHeightMap::kernelTransform(int, int const*, int const*, float const*, float, float)@Base 1.5.1
- (c++)TCODHeightMap::add(TCODHeightMap const*, TCODHeightMap const*)@Base 1.5.1
+ (c++)"TCODHeightMap::addVoronoi(int, int, float const*, TCODRandom*)@Base" 1.5.1
+ (c++)"TCODHeightMap::rainErosion(int, float, float, TCODRandom*)@Base" 1.5.1
+ (c++)"TCODHeightMap::kernelTransform(int, int const*, int const*, float const*, float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::add(TCODHeightMap const*, TCODHeightMap const*)@Base" 1.5.1
  (c++)TCODHeightMap::add(float)@Base 1.5.1
- (c++)TCODHeightMap::copy(TCODHeightMap const*)@Base 1.5.1
- (c++)TCODHeightMap::lerp(TCODHeightMap const*, TCODHeightMap const*, float)@Base 1.5.1
- (c++)TCODHeightMap::clamp(float, float)@Base 1.5.1
+ (c++)"TCODHeightMap::copy(TCODHeightMap const*)@Base" 1.5.1
+ (c++)"TCODHeightMap::lerp(TCODHeightMap const*, TCODHeightMap const*, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::clamp(float, float)@Base" 1.5.1
  (c++)TCODHeightMap::clear()@Base 1.5.1
  (c++)TCODHeightMap::scale(float)@Base 1.5.1
- (c++)TCODHeightMap::addFbm(TCODNoise*, float, float, float, float, float, float, float)@Base 1.5.1
- (c++)TCODHeightMap::addHill(float, float, float, float)@Base 1.5.1
- (c++)TCODHeightMap::digHill(float, float, float, float)@Base 1.5.1
- (c++)TCODHeightMap::multiply(TCODHeightMap const*, TCODHeightMap const*)@Base 1.5.1
- (c++)TCODHeightMap::scaleFbm(TCODNoise*, float, float, float, float, float, float, float)@Base 1.5.1
- (c++)TCODHeightMap::digBezier(int*, int*, float, float, float, float)@Base 1.5.1
- (c++)TCODHeightMap::islandify(float, TCODRandom*)@Base 1.5.1
- (c++)TCODHeightMap::normalize(float, float)@Base 1.5.1
- (c++)TCODHeightMap::TCODHeightMap(int, int)@Base 1.5.1
- (c++)TCODHeightMap::TCODHeightMap(int, int)@Base 1.5.1
+ (c++)"TCODHeightMap::addFbm(TCODNoise*, float, float, float, float, float, float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::addHill(float, float, float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::digHill(float, float, float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::multiply(TCODHeightMap const*, TCODHeightMap const*)@Base" 1.5.1
+ (c++)"TCODHeightMap::scaleFbm(TCODNoise*, float, float, float, float, float, float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::digBezier(int*, int*, float, float, float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::islandify(float, TCODRandom*)@Base" 1.5.1
+ (c++)"TCODHeightMap::normalize(float, float)@Base" 1.5.1
+ (c++)"TCODHeightMap::TCODHeightMap(int, int)@Base" 1.5.1
+ (c++)"TCODHeightMap::TCODHeightMap(int, int)@Base" 1.5.1
  (c++)TCODHeightMap::~TCODHeightMap()@Base 1.5.1
  (c++)TCODHeightMap::~TCODHeightMap()@Base 1.5.1
  (c++)TCODHeightMap::~TCODHeightMap()@Base 1.5.1
- (c++)TCODParserStruct::addProperty(char const*, TCOD_value_type_t, bool)@Base 1.5.1
+ (c++)"TCODParserStruct::addProperty(char const*, TCOD_value_type_t, bool)@Base" 1.5.1
  (c++)TCODParserStruct::addStructure(TCODParserStruct*)@Base 1.5.1
- (c++)TCODParserStruct::addValueList(char const*, char const**, bool)@Base 1.5.1
- (c++)TCODParserStruct::addListProperty(char const*, TCOD_value_type_t, bool)@Base 1.5.1
- (c++)TCODParserStruct::addFlag(char const*)@Base 1.5.1
+ (c++)"TCODParserStruct::addValueList(char const*, char const**, bool)@Base" 1.5.1
+ (c++)"TCODParserStruct::addListProperty(char const*, TCOD_value_type_t, bool)@Base" 1.5.1
+ (c++)"TCODParserStruct::addFlag(char const*)@Base" 1.5.1
  (c++)TCODBsp::removeSons()@Base 1.5.1
- (c++)TCODBsp::splitRecursive(TCODRandom*, int, int, int, float, float)@Base 1.5.1
- (c++)TCODBsp::traverseInOrder(ITCODBspCallback*, void*)@Base 1.5.1
- (c++)TCODBsp::traversePreOrder(ITCODBspCallback*, void*)@Base 1.5.1
- (c++)TCODBsp::traversePostOrder(ITCODBspCallback*, void*)@Base 1.5.1
- (c++)TCODBsp::traverseLevelOrder(ITCODBspCallback*, void*)@Base 1.5.1
- (c++)TCODBsp::traverseInvertedLevelOrder(ITCODBspCallback*, void*)@Base 1.5.1
- (c++)TCODBsp::resize(int, int, int, int)@Base 1.5.1
- (c++)TCODBsp::findNode(int, int)@Base 1.5.1
- (c++)TCODBsp::splitOnce(bool, int)@Base 1.5.1
- (c++)TCODBsp::TCODBsp(TCODBsp*, bool)@Base 1.5.1
- (c++)TCODBsp::TCODBsp(TCODBsp*, bool)@Base 1.5.1
+ (c++)"TCODBsp::splitRecursive(TCODRandom*, int, int, int, float, float)@Base" 1.5.1
+ (c++)"TCODBsp::traverseInOrder(ITCODBspCallback*, void*)@Base" 1.5.1
+ (c++)"TCODBsp::traversePreOrder(ITCODBspCallback*, void*)@Base" 1.5.1
+ (c++)"TCODBsp::traversePostOrder(ITCODBspCallback*, void*)@Base" 1.5.1
+ (c++)"TCODBsp::traverseLevelOrder(ITCODBspCallback*, void*)@Base" 1.5.1
+ (c++)"TCODBsp::traverseInvertedLevelOrder(ITCODBspCallback*, void*)@Base" 1.5.1
+ (c++)"TCODBsp::resize(int, int, int, int)@Base" 1.5.1
+ (c++)"TCODBsp::findNode(int, int)@Base" 1.5.1
+ (c++)"TCODBsp::splitOnce(bool, int)@Base" 1.5.1
+ (c++)"TCODBsp::TCODBsp(TCODBsp*, bool)@Base" 1.5.1
+ (c++)"TCODBsp::TCODBsp(TCODBsp*, bool)@Base" 1.5.1
  (c++)TCODBsp::~TCODBsp()@Base 1.5.1
  (c++)TCODBsp::~TCODBsp()@Base 1.5.1
  (c++)TCODBsp::~TCODBsp()@Base 1.5.1
- (c++)TCODLex::parseUntil(char const*)@Base 1.5.1
+ (c++)"TCODLex::parseUntil(char const*)@Base" 1.5.1
  (c++)TCODLex::parseUntil(int)@Base 1.5.1
- (c++)TCODLex::setDataFile(char const*)@Base 1.5.1
+ (c++)"TCODLex::setDataFile(char const*)@Base" 1.5.1
  (c++)TCODLex::setDataBuffer(char*)@Base 1.5.1
  (c++)TCODLex::getLastJavadoc()@Base 1.5.1
  (c++)TCODLex::parse()@Base 1.5.1
  (c++)TCODLex::expect(int)@Base 1.5.1
- (c++)TCODLex::expect(int, char const*)@Base 1.5.1
+ (c++)"TCODLex::expect(int, char const*)@Base" 1.5.1
  (c++)TCODLex::restore(TCODLex*)@Base 1.5.1
  (c++)TCODLex::savepoint(TCODLex*)@Base 1.5.1
- (c++)TCODLex::TCODLex(char const**, char const**, char const*, char const*, char const*, char const*, char const*, int)@Base 1.5.1
+ (c++)"TCODLex::TCODLex(char const**, char const**, char const*, char const*, char const*, char const*, char const*, int)@Base" 1.5.1
  (c++)TCODLex::TCODLex()@Base 1.5.1
- (c++)TCODLex::TCODLex(char const**, char const**, char const*, char const*, char const*, char const*, char const*, int)@Base 1.5.1
+ (c++)"TCODLex::TCODLex(char const**, char const**, char const*, char const*, char const*, char const*, char const*, int)@Base" 1.5.1
  (c++)TCODLex::TCODLex()@Base 1.5.1
  (c++)TCODLex::~TCODLex()@Base 1.5.1
  (c++)TCODLex::~TCODLex()@Base 1.5.1
- (c++)TCODMap::computeFov(int, int, int, bool, TCOD_fov_algorithm_t)@Base 1.5.1
- (c++)TCODMap::setProperties(int, int, bool, bool)@Base 1.5.1
- (c++)TCODMap::copy(TCODMap const*)@Base 1.5.1
- (c++)TCODMap::clear(bool, bool)@Base 1.5.1
- (c++)TCODMap::setInFov(int, int, bool)@Base 1.5.1
- (c++)TCODMap::TCODMap(int, int)@Base 1.5.1
- (c++)TCODMap::TCODMap(int, int)@Base 1.5.1
+ (c++)"TCODMap::computeFov(int, int, int, bool, TCOD_fov_algorithm_t)@Base" 1.5.1
+ (c++)"TCODMap::setProperties(int, int, bool, bool)@Base" 1.5.1
+ (c++)"TCODMap::copy(TCODMap const*)@Base" 1.5.1
+ (c++)"TCODMap::clear(bool, bool)@Base" 1.5.1
+ (c++)"TCODMap::setInFov(int, int, bool)@Base" 1.5.1
+ (c++)"TCODMap::TCODMap(int, int)@Base" 1.5.1
+ (c++)"TCODMap::TCODMap(int, int)@Base" 1.5.1
  (c++)TCODMap::~TCODMap()@Base 1.5.1
  (c++)TCODMap::~TCODMap()@Base 1.5.1
  (c++)TCODMap::~TCODMap()@Base 1.5.1
  (c++)TCODZip::getConsole()@Base 1.5.1
- (c++)TCODZip::putConsole(TCODConsole const*)@Base 1.5.1
- (c++)TCODZip::saveToFile(char const*)@Base 1.5.1
- (c++)TCODZip::loadFromFile(char const*)@Base 1.5.1
+ (c++)"TCODZip::putConsole(TCODConsole const*)@Base" 1.5.1
+ (c++)"TCODZip::saveToFile(char const*)@Base" 1.5.1
+ (c++)"TCODZip::loadFromFile(char const*)@Base" 1.5.1
  (c++)TCODZip::getInt()@Base 1.5.1
  (c++)TCODZip::putInt(int)@Base 1.5.1
  (c++)TCODZip::getChar()@Base 1.5.1
- (c++)TCODZip::getData(int, void*)@Base 1.5.1
+ (c++)"TCODZip::getData(int, void*)@Base" 1.5.1
  (c++)TCODZip::putChar(char)@Base 1.5.1
- (c++)TCODZip::putData(int, void const*)@Base 1.5.1
+ (c++)"TCODZip::putData(int, void const*)@Base" 1.5.1
  (c++)TCODZip::getColor()@Base 1.5.1
  (c++)TCODZip::getFloat()@Base 1.5.1
  (c++)TCODZip::getImage()@Base 1.5.1
- (c++)TCODZip::putColor(TCODColor const*)@Base 1.5.1
+ (c++)"TCODZip::putColor(TCODColor const*)@Base" 1.5.1
  (c++)TCODZip::putFloat(float)@Base 1.5.1
- (c++)TCODZip::putImage(TCODImage const*)@Base 1.5.1
+ (c++)"TCODZip::putImage(TCODImage const*)@Base" 1.5.1
  (c++)TCODZip::getString()@Base 1.5.1
- (c++)TCODZip::putString(char const*)@Base 1.5.1
- (c++)TCODZip::skipBytes(unsigned int)@Base 1.5.1
+ (c++)"TCODZip::putString(char const*)@Base" 1.5.1
+ (c++)"TCODZip::skipBytes(unsigned int)@Base" 1.5.1
  (c++)TCODZip::TCODZip()@Base 1.5.1
  (c++)TCODZip::TCODZip()@Base 1.5.1
  (c++)TCODZip::~TCODZip()@Base 1.5.1
  (c++)TCODZip::~TCODZip()@Base 1.5.1
- (c++)TCODLine::init(int, int, int, int)@Base 1.5.1
- (c++)TCODLine::line(int, int, int, int, TCODLineListener*)@Base 1.5.1
- (c++)TCODLine::step(int*, int*)@Base 1.5.1
+ (c++)"TCODLine::init(int, int, int, int)@Base" 1.5.1
+ (c++)"TCODLine::line(int, int, int, int, TCODLineListener*)@Base" 1.5.1
+ (c++)"TCODLine::step(int*, int*)@Base" 1.5.1
  (c++)TCODList<TCODParserStruct*>::~TCODList()@Base 1.5.1
  (c++)TCODList<TCODParserStruct*>::~TCODList()@Base 1.5.1
  (c++)TCODList<TCODParserStruct*>::~TCODList()@Base 1.5.1
  (c++)TCODList<TCODBsp*>::~TCODList()@Base 1.5.1
  (c++)TCODList<TCODBsp*>::~TCODList()@Base 1.5.1
  (c++)TCODList<TCODBsp*>::~TCODList()@Base 1.5.1
- (c++)TCODPath::walk(int*, int*, bool)@Base 1.5.1
- (c++)TCODPath::compute(int, int, int, int)@Base 1.5.1
+ (c++)"TCODPath::walk(int*, int*, bool)@Base" 1.5.1
+ (c++)"TCODPath::compute(int, int, int, int)@Base" 1.5.1
  (c++)TCODPath::reverse()@Base 1.5.1
- (c++)TCODPath::TCODPath(TCODMap const*, float)@Base 1.5.1
- (c++)TCODPath::TCODPath(int, int, ITCODPathCallback const*, void*, float)@Base 1.5.1
- (c++)TCODPath::TCODPath(TCODMap const*, float)@Base 1.5.1
- (c++)TCODPath::TCODPath(int, int, ITCODPathCallback const*, void*, float)@Base 1.5.1
+ (c++)"TCODPath::TCODPath(TCODMap const*, float)@Base" 1.5.1
+ (c++)"TCODPath::TCODPath(int, int, ITCODPathCallback const*, void*, float)@Base" 1.5.1
+ (c++)"TCODPath::TCODPath(TCODMap const*, float)@Base" 1.5.1
+ (c++)"TCODPath::TCODPath(int, int, ITCODPathCallback const*, void*, float)@Base" 1.5.1
  (c++)TCODPath::~TCODPath()@Base 1.5.1
  (c++)TCODPath::~TCODPath()@Base 1.5.1
  (c++)TCODPath::~TCODPath()@Base 1.5.1
- (c++)TCODText::setProperties(int, int, char const*, int)@Base 1.5.1
+ (c++)"TCODText::setProperties(int, int, char const*, int)@Base" 1.5.1
  (c++)TCODText::reset()@Base 1.5.1
  (c++)TCODText::render(TCODConsole*)@Base 1.5.1
  (c++)TCODText::update(TCOD_key_t)@Base 1.5.1
  (c++)TCODText::getText()@Base 1.5.1
- (c++)TCODText::setColors(TCODColor, TCODColor, float)@Base 1.5.1
- (c++)TCODText::TCODText(int, int, int, int, int)@Base 1.5.1
- (c++)TCODText::TCODText(int, int, int, int, int)@Base 1.5.1
+ (c++)"TCODText::setColors(TCODColor, TCODColor, float)@Base" 1.5.1
+ (c++)"TCODText::TCODText(int, int, int, int, int)@Base" 1.5.1
+ (c++)"TCODText::TCODText(int, int, int, int, int)@Base" 1.5.1
  (c++)TCODText::~TCODText()@Base 1.5.1
  (c++)TCODText::~TCODText()@Base 1.5.1
  (c++)TCODColor::chartreuse@Base 1.5.1
@@ -1492,11 +1492,11 @@ libtcodxx.so.0 libtcod0 #MINVER#
  (c++)TCODColor::white@Base 1.5.1
  (c++)TCODColor::colors@Base 1.5.1
  (c++)TCODColor::copper@Base 1.5.1
- (c++)TCODColor::genMap(TCODColor*, int, TCODColor const*, int const*)@Base 1.5.1
+ (c++)"TCODColor::genMap(TCODColor*, int, TCODColor const*, int const*)@Base" 1.5.1
  (c++)TCODColor::getHue()@Base 1.5.1
  (c++)TCODColor::orange@Base 1.5.1
  (c++)TCODColor::purple@Base 1.5.1
- (c++)TCODColor::setHSV(float, float, float)@Base 1.5.1
+ (c++)"TCODColor::setHSV(float, float, float)@Base" 1.5.1
  (c++)TCODColor::setHue(float)@Base 1.5.1
  (c++)TCODColor::silver@Base 1.5.1
  (c++)TCODColor::violet@Base 1.5.1
@@ -1519,7 +1519,7 @@ libtcodxx.so.0 libtcod0 #MINVER#
  (c++)TCODColor::lightRed@Base 1.5.1
  (c++)TCODColor::lightSea@Base 1.5.1
  (c++)TCODColor::lightSky@Base 1.5.1
- (c++)TCODColor::scaleHSV(float, float)@Base 1.5.1
+ (c++)"TCODColor::scaleHSV(float, float)@Base" 1.5.1
  (c++)TCODColor::setValue(float)@Base 1.5.1
  (c++)TCODColor::shiftHue(float)@Base 1.5.1
  (c++)TCODColor::darkAmber@Base 1.5.1
@@ -1537,138 +1537,138 @@ libtcodxx.so.0 libtcod0 #MINVER#
  (c++)TCODColor::lightLime@Base 1.5.1
  (c++)TCODColor::lightPink@Base 1.5.1
  (c++)TCODColor::turquoise@Base 1.5.1
- (c++)TCODColor::TCODColor(float, float, float)@Base 1.5.1
- (c++)TCODColor::TCODColor(float, float, float)@Base 1.5.1
+ (c++)"TCODColor::TCODColor(float, float, float)@Base" 1.5.1
+ (c++)"TCODColor::TCODColor(float, float, float)@Base" 1.5.1
  (c++)TCODImage::setKeyColor(TCODColor)@Base 1.5.1
- (c++)TCODImage::getMipmapPixel(float, float, float, float)@Base 1.5.1
- (c++)TCODImage::refreshConsole(TCODConsole const*)@Base 1.5.1
+ (c++)"TCODImage::getMipmapPixel(float, float, float, float)@Base" 1.5.1
+ (c++)"TCODImage::refreshConsole(TCODConsole const*)@Base" 1.5.1
  (c++)TCODImage::clear(TCODColor)@Base 1.5.1
  (c++)TCODImage::hflip()@Base 1.5.1
- (c++)TCODImage::scale(int, int)@Base 1.5.1
+ (c++)"TCODImage::scale(int, int)@Base" 1.5.1
  (c++)TCODImage::vflip()@Base 1.5.1
  (c++)TCODImage::invert()@Base 1.5.1
- (c++)TCODImage::putPixel(int, int, TCODColor)@Base 1.5.1
+ (c++)"TCODImage::putPixel(int, int, TCODColor)@Base" 1.5.1
  (c++)TCODImage::rotate90(int)@Base 1.5.1
- (c++)TCODImage::TCODImage(TCODConsole const*)@Base 1.5.1
- (c++)TCODImage::TCODImage(char const*)@Base 1.5.1
- (c++)TCODImage::TCODImage(int, int)@Base 1.5.1
- (c++)TCODImage::TCODImage(TCODConsole const*)@Base 1.5.1
- (c++)TCODImage::TCODImage(char const*)@Base 1.5.1
- (c++)TCODImage::TCODImage(int, int)@Base 1.5.1
+ (c++)"TCODImage::TCODImage(TCODConsole const*)@Base" 1.5.1
+ (c++)"TCODImage::TCODImage(char const*)@Base" 1.5.1
+ (c++)"TCODImage::TCODImage(int, int)@Base" 1.5.1
+ (c++)"TCODImage::TCODImage(TCODConsole const*)@Base" 1.5.1
+ (c++)"TCODImage::TCODImage(char const*)@Base" 1.5.1
+ (c++)"TCODImage::TCODImage(int, int)@Base" 1.5.1
  (c++)TCODImage::~TCODImage()@Base 1.5.1
  (c++)TCODImage::~TCODImage()@Base 1.5.1
  (c++)TCODImage::~TCODImage()@Base 1.5.1
  (c++)TCODMouse::showCursor(bool)@Base 1.5.1
  (c++)TCODMouse::isCursorVisible()@Base 1.5.1
- (c++)TCODMouse::move(int, int)@Base 1.5.1
+ (c++)"TCODMouse::move(int, int)@Base" 1.5.1
  (c++)TCODMouse::getStatus()@Base 1.5.1
- (c++)TCODNoise::getTurbulence(float*, float, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::get(float*, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::getFbm(float*, float, TCOD_noise_type_t)@Base 1.5.1
+ (c++)"TCODNoise::getTurbulence(float*, float, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::get(float*, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::getFbm(float*, float, TCOD_noise_type_t)@Base" 1.5.1
  (c++)TCODNoise::setType(TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, TCODRandom*, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, float, float, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, float, float, TCODRandom*, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, TCODRandom*, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, float, float, TCOD_noise_type_t)@Base 1.5.1
- (c++)TCODNoise::TCODNoise(int, float, float, TCODRandom*, TCOD_noise_type_t)@Base 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, TCODRandom*, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, float, float, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, float, float, TCODRandom*, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, TCODRandom*, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, float, float, TCOD_noise_type_t)@Base" 1.5.1
+ (c++)"TCODNoise::TCODNoise(int, float, float, TCODRandom*, TCOD_noise_type_t)@Base" 1.5.1
  (c++)TCODNoise::~TCODNoise()@Base 1.5.1
  (c++)TCODNoise::~TCODNoise()@Base 1.5.1
  (c++)TCODNoise::~TCODNoise()@Base 1.5.1
- (c++)TCODParser::getIntProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getBoolProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getCharProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getDiceProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getListProperty(char const*, TCOD_value_type_t) const@Base 1.5.1
- (c++)TCODParser::getColorProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getFloatProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getCustomProperty(char const*) const@Base 1.5.1
- (c++)TCODParser::getStringProperty(char const*) const@Base 1.5.1
- (c++)TCODRandom::save() const@Base 1.5.1
- (c++)TCODConsole::getAlignment() const@Base 1.5.1
- (c++)TCODConsole::getBackgroundFlag() const@Base 1.5.1
- (c++)TCODConsole::getCharBackground(int, int) const@Base 1.5.1
- (c++)TCODConsole::getCharForeground(int, int) const@Base 1.5.1
- (c++)TCODConsole::getDefaultBackground() const@Base 1.5.1
- (c++)TCODConsole::getDefaultForeground() const@Base 1.5.1
- (c++)TCODConsole::getChar(int, int) const@Base 1.5.1
- (c++)TCODConsole::saveApf(char const*) const@Base 1.5.1
- (c++)TCODConsole::saveAsc(char const*) const@Base 1.5.1
- (c++)TCODConsole::getWidth() const@Base 1.5.1
- (c++)TCODConsole::getHeight() const@Base 1.5.1
- (c++)TCODDijkstra::get(int, int*, int*) const@Base 1.5.1
- (c++)TCODDijkstra::size() const@Base 1.5.1
- (c++)TCODDijkstra::isEmpty() const@Base 1.5.1
- (c++)TCODHeightMap::countCells(float, float) const@Base 1.5.1
- (c++)TCODHeightMap::hasLandOnBorder(float) const@Base 1.5.1
- (c++)TCODHeightMap::getInterpolatedValue(float, float) const@Base 1.5.1
- (c++)TCODHeightMap::getSlope(int, int) const@Base 1.5.1
- (c++)TCODHeightMap::getMinMax(float*, float*) const@Base 1.5.1
- (c++)TCODHeightMap::getNormal(float, float, float*, float) const@Base 1.5.1
- (c++)TCODParserStruct::getPropertyType(char const*) const@Base 1.5.1
- (c++)TCODParserStruct::isPropertyMandatory(char const*) const@Base 1.5.1
- (c++)TCODParserStruct::getName() const@Base 1.5.1
- (c++)TCODBsp::contains(int, int) const@Base 1.5.1
- (c++)TCODMap::getNbCells() const@Base 1.5.1
- (c++)TCODMap::isWalkable(int, int) const@Base 1.5.1
- (c++)TCODMap::isTransparent(int, int) const@Base 1.5.1
- (c++)TCODMap::isInFov(int, int) const@Base 1.5.1
- (c++)TCODMap::getWidth() const@Base 1.5.1
- (c++)TCODMap::getHeight() const@Base 1.5.1
- (c++)TCODZip::getCurrentBytes() const@Base 1.5.1
- (c++)TCODZip::getRemainingBytes() const@Base 1.5.1
- (c++)TCODPath::getDestination(int*, int*) const@Base 1.5.1
- (c++)TCODPath::get(int, int*, int*) const@Base 1.5.1
- (c++)TCODPath::size() const@Base 1.5.1
- (c++)TCODPath::isEmpty() const@Base 1.5.1
- (c++)TCODPath::getOrigin(int*, int*) const@Base 1.5.1
- (c++)TCODColor::getHSV(float*, float*, float*) const@Base 1.5.1
- (c++)TCODImage::isPixelTransparent(int, int) const@Base 1.5.1
- (c++)TCODImage::blit(TCODConsole*, float, float, TCOD_bkgnd_flag_t, float, float, float) const@Base 1.5.1
- (c++)TCODImage::save(char const*) const@Base 1.5.1
- (c++)TCODImage::blit2x(TCODConsole*, int, int, int, int, int, int) const@Base 1.5.1
- (c++)TCODImage::getSize(int*, int*) const@Base 1.5.1
- (c++)TCODImage::blitRect(TCODConsole*, int, int, int, int, TCOD_bkgnd_flag_t) const@Base 1.5.1
- (c++)TCODImage::getAlpha(int, int) const@Base 1.5.1
- (c++)TCODImage::getPixel(int, int) const@Base 1.5.1
- (c++)typeinfo for TCODRandom@Base 1.5.1
- (c++)typeinfo for TCODConsole@Base 1.5.1
- (c++)typeinfo for TCODHeightMap@Base 1.5.1
- (c++)typeinfo for TCODBsp@Base 1.5.1
- (c++)typeinfo for TCODMap@Base 1.5.1
- (c++)typeinfo for TCODList<TCODParserStruct*>@Base 1.5.1
- (c++)typeinfo for TCODList<TCODBsp*>@Base 1.5.1
- (c++)typeinfo for TCODPath@Base 1.5.1
- (c++)typeinfo for TCODTree@Base 1.5.1
- (c++)typeinfo for TCODImage@Base 1.5.1
- (c++)typeinfo for TCODNoise@Base 1.5.1
- (c++)typeinfo name for TCODRandom@Base 1.5.1
- (c++)typeinfo name for TCODConsole@Base 1.5.1
- (c++)typeinfo name for TCODHeightMap@Base 1.5.1
- (c++)typeinfo name for TCODBsp@Base 1.5.1
- (c++)typeinfo name for TCODMap@Base 1.5.1
- (c++)typeinfo name for TCODList<TCODParserStruct*>@Base 1.5.1
- (c++)typeinfo name for TCODList<TCODBsp*>@Base 1.5.1
- (c++)typeinfo name for TCODPath@Base 1.5.1
- (c++)typeinfo name for TCODTree@Base 1.5.1
- (c++)typeinfo name for TCODImage@Base 1.5.1
- (c++)typeinfo name for TCODNoise@Base 1.5.1
- (c++)vtable for TCODRandom@Base 1.5.1
- (c++)vtable for TCODConsole@Base 1.5.1
- (c++)vtable for TCODHeightMap@Base 1.5.1
- (c++)vtable for TCODBsp@Base 1.5.1
- (c++)vtable for TCODMap@Base 1.5.1
- (c++)vtable for TCODList<TCODParserStruct*>@Base 1.5.1
- (c++)vtable for TCODList<TCODBsp*>@Base 1.5.1
- (c++)vtable for TCODPath@Base 1.5.1
- (c++)vtable for TCODImage@Base 1.5.1
- (c++)vtable for TCODNoise@Base 1.5.1
- (c++)operator*(float, TCODColor const&)@Base 1.5.1
- (c++)end_struct@Base 1.5.1
- (c++)error@Base 1.5.1
- (c++)internalListener@Base 1.5.1
- (c++)new_flag@Base 1.5.1
- (c++)new_property@Base 1.5.1
- (c++)new_struct@Base 1.5.1
+ (c++)"TCODParser::getIntProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getBoolProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getCharProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getDiceProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getListProperty(char const*, TCOD_value_type_t) const@Base" 1.5.1
+ (c++)"TCODParser::getColorProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getFloatProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getCustomProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODParser::getStringProperty(char const*) const@Base" 1.5.1
+ (c++)"TCODRandom::save() const@Base" 1.5.1
+ (c++)"TCODConsole::getAlignment() const@Base" 1.5.1
+ (c++)"TCODConsole::getBackgroundFlag() const@Base" 1.5.1
+ (c++)"TCODConsole::getCharBackground(int, int) const@Base" 1.5.1
+ (c++)"TCODConsole::getCharForeground(int, int) const@Base" 1.5.1
+ (c++)"TCODConsole::getDefaultBackground() const@Base" 1.5.1
+ (c++)"TCODConsole::getDefaultForeground() const@Base" 1.5.1
+ (c++)"TCODConsole::getChar(int, int) const@Base" 1.5.1
+ (c++)"TCODConsole::saveApf(char const*) const@Base" 1.5.1
+ (c++)"TCODConsole::saveAsc(char const*) const@Base" 1.5.1
+ (c++)"TCODConsole::getWidth() const@Base" 1.5.1
+ (c++)"TCODConsole::getHeight() const@Base" 1.5.1
+ (c++)"TCODDijkstra::get(int, int*, int*) const@Base" 1.5.1
+ (c++)"TCODDijkstra::size() const@Base" 1.5.1
+ (c++)"TCODDijkstra::isEmpty() const@Base" 1.5.1
+ (c++)"TCODHeightMap::countCells(float, float) const@Base" 1.5.1
+ (c++)"TCODHeightMap::hasLandOnBorder(float) const@Base" 1.5.1
+ (c++)"TCODHeightMap::getInterpolatedValue(float, float) const@Base" 1.5.1
+ (c++)"TCODHeightMap::getSlope(int, int) const@Base" 1.5.1
+ (c++)"TCODHeightMap::getMinMax(float*, float*) const@Base" 1.5.1
+ (c++)"TCODHeightMap::getNormal(float, float, float*, float) const@Base" 1.5.1
+ (c++)"TCODParserStruct::getPropertyType(char const*) const@Base" 1.5.1
+ (c++)"TCODParserStruct::isPropertyMandatory(char const*) const@Base" 1.5.1
+ (c++)"TCODParserStruct::getName() const@Base" 1.5.1
+ (c++)"TCODBsp::contains(int, int) const@Base" 1.5.1
+ (c++)"TCODMap::getNbCells() const@Base" 1.5.1
+ (c++)"TCODMap::isWalkable(int, int) const@Base" 1.5.1
+ (c++)"TCODMap::isTransparent(int, int) const@Base" 1.5.1
+ (c++)"TCODMap::isInFov(int, int) const@Base" 1.5.1
+ (c++)"TCODMap::getWidth() const@Base" 1.5.1
+ (c++)"TCODMap::getHeight() const@Base" 1.5.1
+ (c++)"TCODZip::getCurrentBytes() const@Base" 1.5.1
+ (c++)"TCODZip::getRemainingBytes() const@Base" 1.5.1
+ (c++)"TCODPath::getDestination(int*, int*) const@Base" 1.5.1
+ (c++)"TCODPath::get(int, int*, int*) const@Base" 1.5.1
+ (c++)"TCODPath::size() const@Base" 1.5.1
+ (c++)"TCODPath::isEmpty() const@Base" 1.5.1
+ (c++)"TCODPath::getOrigin(int*, int*) const@Base" 1.5.1
+ (c++)"TCODColor::getHSV(float*, float*, float*) const@Base" 1.5.1
+ (c++)"TCODImage::isPixelTransparent(int, int) const@Base" 1.5.1
+ (c++)"TCODImage::blit(TCODConsole*, float, float, TCOD_bkgnd_flag_t, float, float, float) const@Base" 1.5.1
+ (c++)"TCODImage::save(char const*) const@Base" 1.5.1
+ (c++)"TCODImage::blit2x(TCODConsole*, int, int, int, int, int, int) const@Base" 1.5.1
+ (c++)"TCODImage::getSize(int*, int*) const@Base" 1.5.1
+ (c++)"TCODImage::blitRect(TCODConsole*, int, int, int, int, TCOD_bkgnd_flag_t) const@Base" 1.5.1
+ (c++)"TCODImage::getAlpha(int, int) const@Base" 1.5.1
+ (c++)"TCODImage::getPixel(int, int) const@Base" 1.5.1
+ (c++)"typeinfo for TCODRandom@Base" 1.5.1
+ (c++)"typeinfo for TCODConsole@Base" 1.5.1
+ (c++)"typeinfo for TCODHeightMap@Base" 1.5.1
+ (c++)"typeinfo for TCODBsp@Base" 1.5.1
+ (c++)"typeinfo for TCODMap@Base" 1.5.1
+ (c++)"typeinfo for TCODList<TCODParserStruct*>@Base" 1.5.1
+ (c++)"typeinfo for TCODList<TCODBsp*>@Base" 1.5.1
+ (c++)"typeinfo for TCODPath@Base" 1.5.1
+ (c++)"typeinfo for TCODTree@Base" 1.5.1
+ (c++)"typeinfo for TCODImage@Base" 1.5.1
+ (c++)"typeinfo for TCODNoise@Base" 1.5.1
+ (c++)"typeinfo name for TCODRandom@Base" 1.5.1
+ (c++)"typeinfo name for TCODConsole@Base" 1.5.1
+ (c++)"typeinfo name for TCODHeightMap@Base" 1.5.1
+ (c++)"typeinfo name for TCODBsp@Base" 1.5.1
+ (c++)"typeinfo name for TCODMap@Base" 1.5.1
+ (c++)"typeinfo name for TCODList<TCODParserStruct*>@Base" 1.5.1
+ (c++)"typeinfo name for TCODList<TCODBsp*>@Base" 1.5.1
+ (c++)"typeinfo name for TCODPath@Base" 1.5.1
+ (c++)"typeinfo name for TCODTree@Base" 1.5.1
+ (c++)"typeinfo name for TCODImage@Base" 1.5.1
+ (c++)"typeinfo name for TCODNoise@Base" 1.5.1
+ (c++)"vtable for TCODRandom@Base" 1.5.1
+ (c++)"vtable for TCODConsole@Base" 1.5.1
+ (c++)"vtable for TCODHeightMap@Base" 1.5.1
+ (c++)"vtable for TCODBsp@Base" 1.5.1
+ (c++)"vtable for TCODMap@Base" 1.5.1
+ (c++)"vtable for TCODList<TCODParserStruct*>@Base" 1.5.1
+ (c++)"vtable for TCODList<TCODBsp*>@Base" 1.5.1
+ (c++)"vtable for TCODPath@Base" 1.5.1
+ (c++)"vtable for TCODImage@Base" 1.5.1
+ (c++)"vtable for TCODNoise@Base" 1.5.1
+ (c++)"operator*(float, TCODColor const&)@Base" 1.5.1
+ end_struct@Base 1.5.1
+ error@Base 1.5.1
+ internalListener@Base 1.5.1
+ new_flag@Base 1.5.1
+ new_property@Base 1.5.1
+ new_struct@Base 1.5.1
