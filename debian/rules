@@ -2,7 +2,7 @@
 
 upstream_version = $(shell dpkg-parsechangelog | sed -rne 's/^Version: ([0-9.]+)(\+dfsg\d+)?.*$$/\1/p')
 dfsg_version = $(upstream_version)+dfsg2
-soname=0
+soname=1
 
 %:
 	dh $@ 

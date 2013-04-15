@@ -1,4 +1,4 @@
-libtcod.so.0 libtcod0 #MINVER#
+libtcod.so.1 libtcod1 #MINVER#
  ConsoleDataAlignment@Base 1.5.1
  DllMain@Base 1.5.1
  TCOD_amber@Base 1.5.1
@@ -862,7 +862,7 @@ libtcod.so.0 libtcod0 #MINVER#
  putFourCC@Base 1.5.1
  rgbdist@Base 1.5.1
  start_angle@Base 1.5.1
-libtcodgui.so.0 libtcod0 #MINVER#
+libtcodgui.so.1 libtcod1 #MINVER#
  (c++)RadioButton::groupSelect@Base 1.5.1
  (c++)RadioButton::defaultGroup@Base 1.5.1
  (c++)RadioButton::onButtonClick()@Base 1.5.1
@@ -1073,7 +1073,7 @@ libtcodgui.so.0 libtcod0 #MINVER#
  (c++)"vtable for Container@Base" 1.5.1
  (c++)"vtable for Separator@Base" 1.5.1
  (c++)"vtable for StatusBar@Base" 1.5.1
-libtcodxx.so.0 libtcod0 #MINVER#
+libtcodxx.so.1 libtcod1 #MINVER#
  TCOD_CRenderer@Base 1.5.1
  (c++)"TCOD_path_func(int, int, int, int, void*)@Base" 1.5.1
  (c++)"TCODParser::newStructure(char const*)@Base" 1.5.1
