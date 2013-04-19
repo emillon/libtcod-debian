@@ -6,7 +6,7 @@ Subject: Setup Makefile
   - honor LDFLAGS
   - group LIBS together
   - add missing LIBS
-  - link C++ libs with G++
+  - link C++ libs with g++
 
 ---
  makefiles/makefile-linux |    6 +++---
