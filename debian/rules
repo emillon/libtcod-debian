@@ -8,7 +8,7 @@ soname=1
 	dh $@ 
 
 override_dh_auto_build:
-	make -f makefiles/makefile-linux release FLAGS="-fPIC $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)" LDFLAGS="$(shell dpkg-buildflags --get LDFLAGS)"
+	make -f makefiles/makefile-linux release FLAGS="$(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)" LDFLAGS="$(shell dpkg-buildflags --get LDFLAGS)"
 
 override_dh_auto_install:
 	mkdir -p debian/tmp/usr/lib

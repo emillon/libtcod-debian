@@ -7,6 +7,7 @@ Subject: Setup Makefile
   - group LIBS together
   - add missing LIBS
   - link C++ libs with g++
+  - pass -fPIC
 
 ---
  makefiles/makefile-linux |    6 +++---
@@ -14,15 +15,17 @@ Subject: Setup Makefile
 
 --- a/makefiles/makefile-linux
 +++ b/makefiles/makefile-linux
-@@ -16,6 +16,8 @@
+@@ -16,7 +16,9 @@
  #OPENGL
  OPENGL_LIB=-lGL
  
+-CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi
 +LIBS=$(ZLIB_LIBS) $(SDL_LIBS) $(OPENGL_LIB) -lm -ldl -lX11 -lpthread
 +
- CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi
++CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi -fPIC
  TEMP=/tmp
  CC=gcc
+ CPP=g++
 @@ -134,16 +136,16 @@
  	ar r $@ $(LIBOBJS_CPP_DEBUG)
  
