@@ -933,7 +933,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"vtable for Separator@Base" 1.5.1
  (c++)"vtable for StatusBar@Base" 1.5.1
 libtcodxx.so.1 libtcod1 #MINVER#
- (c++)"TCOD_path_func(int, int, int, int, void*)@Base" 1.5.1
  (c++)"TCODParser::newStructure(char const*)@Base" 1.5.1
  (c++)"TCODParser::newCustomType(TCOD_value_t (*)(TCOD_lex_t*, TCOD_parser_listener_t*, void*, char*))@Base" 1.5.1
  (c++)"TCODParser::run(char const*, ITCODParserListener*)@Base" 1.5.1
