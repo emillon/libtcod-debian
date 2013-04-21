@@ -9,3 +9,18 @@
  TEMP=/tmp
  CC=gcc
  CPP=g++
+--- a/include/libtcod.h
++++ b/include/libtcod.h
+@@ -142,8 +142,12 @@
+ #define TCODLIB_API __declspec(dllimport)
+ #endif
+ #else
++#ifdef TCOD_GCC
++#define TCODLIB_API __attribute__((visibility("default")))
++#else
+ #define TCODLIB_API
+ #endif
++#endif
+ 
+ #ifdef __cplusplus
+ extern "C" {
