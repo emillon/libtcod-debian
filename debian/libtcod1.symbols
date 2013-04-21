@@ -75,12 +75,10 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_fill_char@Base 1.5.1
  TCOD_console_fill_foreground@Base 1.5.1
  TCOD_console_flush@Base 1.5.1
- TCOD_console_forward@Base 1.5.1
  TCOD_console_forward_utf@Base 1.5.1
  TCOD_console_from_file@Base 1.5.1
  TCOD_console_get_alignment@Base 1.5.1
  TCOD_console_get_background_flag@Base 1.5.1
- TCOD_console_get_buf@Base 1.5.1
  TCOD_console_get_char@Base 1.5.1
  TCOD_console_get_char_background@Base 1.5.1
  TCOD_console_get_char_background_wrapper@Base 1.5.1
@@ -98,7 +96,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_get_height_rect_utf@Base 1.5.1
  TCOD_console_get_width@Base 1.5.1
  TCOD_console_hline@Base 1.5.1
- TCOD_console_init@Base 1.5.1
  TCOD_console_init_root@Base 1.5.1
  TCOD_console_is_fullscreen@Base 1.5.1
  TCOD_console_is_key_pressed@Base 1.5.1
@@ -115,8 +112,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_print_ex@Base 1.5.1
  TCOD_console_print_ex_utf@Base 1.5.1
  TCOD_console_print_frame@Base 1.5.1
- TCOD_console_print_internal@Base 1.5.1
- TCOD_console_print_internal_utf@Base 1.5.1
  TCOD_console_print_rect@Base 1.5.1
  TCOD_console_print_rect_ex@Base 1.5.1
  TCOD_console_print_rect_ex_utf@Base 1.5.1
@@ -150,15 +145,11 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_set_key_color@Base 1.5.1
  TCOD_console_set_key_color_wrapper@Base 1.5.1
  TCOD_console_set_keyboard_repeat@Base 1.5.1
- TCOD_console_set_window_closed@Base 1.5.1
  TCOD_console_set_window_title@Base 1.5.1
  TCOD_console_strchr@Base 1.5.1
  TCOD_console_strchr_utf@Base 1.5.1
- TCOD_console_stringLength@Base 1.5.1
  TCOD_console_stringLength_utf@Base 1.5.1
  TCOD_console_vline@Base 1.5.1
- TCOD_console_vsprint@Base 1.5.1
- TCOD_console_vsprint_utf@Base 1.5.1
  TCOD_console_wait_for_keypress@Base 1.5.1
  TCOD_console_wait_for_keypress_wrapper@Base 1.5.1
  TCOD_copper@Base 1.5.1
@@ -269,8 +260,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_dijkstra_path_walk@Base 1.5.1
  TCOD_dijkstra_reverse@Base 1.5.1
  TCOD_dijkstra_size@Base 1.5.1
- TCOD_fatal@Base 1.5.1
- TCOD_fatal_nopar@Base 1.5.1
  TCOD_flame@Base 1.5.1
  TCOD_fuchsia@Base 1.5.1
  TCOD_get_function_address@Base 1.5.1
@@ -460,18 +449,12 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_list_remove_iterator_fast@Base 1.5.1
  TCOD_list_reverse@Base 1.5.1
  TCOD_list_set@Base 1.5.1
- TCOD_list_set_size@Base 1.5.1
  TCOD_list_size@Base 1.5.1
  TCOD_load_library@Base 1.5.1
  TCOD_magenta@Base 1.5.1
  TCOD_map_clear@Base 1.5.1
  TCOD_map_compute_fov@Base 1.5.1
- TCOD_map_compute_fov_circular_raycasting@Base 1.5.1
  TCOD_map_compute_fov_circular_raycastingi@Base 1.5.1
- TCOD_map_compute_fov_diamond_raycasting@Base 1.5.1
- TCOD_map_compute_fov_permissive2@Base 1.5.1
- TCOD_map_compute_fov_recursive_shadowcasting@Base 1.5.1
- TCOD_map_compute_fov_restrictive_shadowcasting@Base 1.5.1
  TCOD_map_compute_fov_restrictive_shadowcasting_quadrant@Base 1.5.1
  TCOD_map_copy@Base 1.5.1
  TCOD_map_delete@Base 1.5.1
@@ -482,7 +465,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_map_is_transparent@Base 1.5.1
  TCOD_map_is_walkable@Base 1.5.1
  TCOD_map_new@Base 1.5.1
- TCOD_map_postproc@Base 1.5.1
  TCOD_map_set_in_fov@Base 1.5.1
  TCOD_map_set_properties@Base 1.5.1
  TCOD_mouse_get_status@Base 1.5.1
@@ -519,13 +501,7 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_noise_turbulence_simplex@Base 1.5.1
  TCOD_noise_turbulence_wavelet@Base 1.5.1
  TCOD_noise_wavelet@Base 1.5.1
- TCOD_opengl_get_screen@Base 1.5.1
- TCOD_opengl_init_attributes@Base 1.5.1
- TCOD_opengl_init_shaders@Base 1.5.1
- TCOD_opengl_init_state@Base 1.5.1
  TCOD_opengl_putchar_ex@Base 1.5.1
- TCOD_opengl_render@Base 1.5.1
- TCOD_opengl_swap@Base 1.5.1
  TCOD_orange@Base 1.5.1
  TCOD_parse_bool_value@Base 1.5.1
  TCOD_parse_char_value@Base 1.5.1
@@ -627,22 +603,15 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_struct_is_mandatory@Base 1.5.1
  TCOD_sys_check_bmp@Base 1.5.1
  TCOD_sys_check_for_event@Base 1.5.1
- TCOD_sys_check_for_keypress@Base 1.5.1
- TCOD_sys_check_magic_number@Base 1.5.1
  TCOD_sys_check_png@Base 1.5.1
  TCOD_sys_clipboard_get@Base 1.5.1
  TCOD_sys_clipboard_set@Base 1.5.1
- TCOD_sys_console_to_bitmap@Base 1.5.1
- TCOD_sys_create_bitmap@Base 1.5.1
- TCOD_sys_create_bitmap_for_console@Base 1.5.1
  TCOD_sys_create_directory@Base 1.5.1
- TCOD_sys_delete_bitmap@Base 1.5.1
  TCOD_sys_delete_directory@Base 1.5.1
  TCOD_sys_delete_file@Base 1.5.1
  TCOD_sys_elapsed_milli@Base 1.5.1
  TCOD_sys_elapsed_seconds@Base 1.5.1
  TCOD_sys_file_exists@Base 1.5.1
- TCOD_sys_flush@Base 1.5.1
  TCOD_sys_force_fullscreen_resolution@Base 1.5.1
  TCOD_sys_get_char_size@Base 1.5.1
  TCOD_sys_get_current_resolution@Base 1.5.1
@@ -651,39 +620,23 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_sys_get_directory_content@Base 1.5.1
  TCOD_sys_get_fps@Base 1.5.1
  TCOD_sys_get_fullscreen_offsets@Base 1.5.1
- TCOD_sys_get_image_alpha@Base 1.5.1
- TCOD_sys_get_image_pixel@Base 1.5.1
- TCOD_sys_get_image_size@Base 1.5.1
  TCOD_sys_get_last_frame_length@Base 1.5.1
  TCOD_sys_get_num_cores@Base 1.5.1
  TCOD_sys_get_renderer@Base 1.5.1
- TCOD_sys_get_surface@Base 1.5.1
- TCOD_sys_init@Base 1.5.1
  TCOD_sys_is_directory@Base 1.5.1
- TCOD_sys_is_key_pressed@Base 1.5.1
  TCOD_sys_load_font@Base 1.5.1
  TCOD_sys_load_image@Base 1.5.1
- TCOD_sys_map_ascii_to_font@Base 1.5.1
  TCOD_sys_read_bmp@Base 1.5.1
  TCOD_sys_read_file@Base 1.5.1
  TCOD_sys_read_png@Base 1.5.1
  TCOD_sys_register_SDL_renderer@Base 1.5.1
- TCOD_sys_restore_fps@Base 1.5.1
- TCOD_sys_save_bitmap@Base 1.5.1
- TCOD_sys_save_fps@Base 1.5.1
  TCOD_sys_save_screenshot@Base 1.5.1
- TCOD_sys_set_custom_font@Base 1.5.1
  TCOD_sys_set_fps@Base 1.5.1
- TCOD_sys_set_fullscreen@Base 1.5.1
- TCOD_sys_set_keyboard_repeat@Base 1.5.1
  TCOD_sys_set_renderer@Base 1.5.1
- TCOD_sys_set_window_title@Base 1.5.1
  TCOD_sys_sleep_milli@Base 1.5.1
  TCOD_sys_startup@Base 1.5.1
- TCOD_sys_term@Base 1.5.1
  TCOD_sys_update_char@Base 1.5.1
  TCOD_sys_wait_for_event@Base 1.5.1
- TCOD_sys_wait_for_keypress@Base 1.5.1
  TCOD_sys_write_bmp@Base 1.5.1
  TCOD_sys_write_file@Base 1.5.1
  TCOD_sys_write_png@Base 1.5.1
