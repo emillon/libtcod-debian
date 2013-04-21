@@ -601,9 +601,7 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_struct_get_name@Base 1.5.1
  TCOD_struct_get_type@Base 1.5.1
  TCOD_struct_is_mandatory@Base 1.5.1
- TCOD_sys_check_bmp@Base 1.5.1
  TCOD_sys_check_for_event@Base 1.5.1
- TCOD_sys_check_png@Base 1.5.1
  TCOD_sys_clipboard_get@Base 1.5.1
  TCOD_sys_clipboard_set@Base 1.5.1
  TCOD_sys_create_directory@Base 1.5.1
@@ -624,11 +622,8 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_sys_get_num_cores@Base 1.5.1
  TCOD_sys_get_renderer@Base 1.5.1
  TCOD_sys_is_directory@Base 1.5.1
- TCOD_sys_load_font@Base 1.5.1
  TCOD_sys_load_image@Base 1.5.1
- TCOD_sys_read_bmp@Base 1.5.1
  TCOD_sys_read_file@Base 1.5.1
- TCOD_sys_read_png@Base 1.5.1
  TCOD_sys_register_SDL_renderer@Base 1.5.1
  TCOD_sys_save_screenshot@Base 1.5.1
  TCOD_sys_set_fps@Base 1.5.1
@@ -637,9 +632,7 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_sys_startup@Base 1.5.1
  TCOD_sys_update_char@Base 1.5.1
  TCOD_sys_wait_for_event@Base 1.5.1
- TCOD_sys_write_bmp@Base 1.5.1
  TCOD_sys_write_file@Base 1.5.1
- TCOD_sys_write_png@Base 1.5.1
  TCOD_text_delete@Base 1.5.1
  TCOD_text_get@Base 1.5.1
  TCOD_text_init@Base 1.5.1
