@@ -1,6 +1,4 @@
 libtcod.so.1 libtcod1 #MINVER#
- ConsoleDataAlignment@Base 1.5.1
- DllMain@Base 1.5.1
  TCOD_amber@Base 1.5.1
  TCOD_azure@Base 1.5.1
  TCOD_black@Base 1.5.1
@@ -729,139 +727,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_zip_put_string@Base 1.5.1
  TCOD_zip_save_to_file@Base 1.5.1
  TCOD_zip_skip_bytes@Base 1.5.1
- _CheckGL_Error@Base 1.5.1
- allocated@Base 1.5.1
- bswap16@Base 1.5.1
- bswap32@Base 1.5.1
- detectBigEndianness@Base 1.5.1
- dijkstra_get_int_distance@Base 1.5.1
- end_angle@Base 1.5.1
- fix16@Base 1.5.1
- fix32@Base 1.5.1
- fixImage@Base 1.5.1
- fixLayerv1@Base 1.5.1
- fixLayerv2@Base 1.5.1
- fixSettings@Base 1.5.1
- fourCC@Base 1.5.1
- fourCCequals@Base 1.5.1
- fromFourCC@Base 1.5.1
- get16@Base 1.5.1
- get32@Base 1.5.1
- get8@Base 1.5.1
- getData@Base 1.5.1
- getPattern@Base 1.5.1
- getValueRequiredBits@Base 1.5.1
- int_to_color@Base 1.5.1
- l16@Base 1.5.1
- l32@Base 1.5.1
- lodepng_add_itext@Base 1.5.1
- lodepng_add_text@Base 1.5.1
- lodepng_can_have_alpha@Base 1.5.1
- lodepng_chunk_ancillary@Base 1.5.1
- lodepng_chunk_append@Base 1.5.1
- lodepng_chunk_check_crc@Base 1.5.1
- lodepng_chunk_create@Base 1.5.1
- lodepng_chunk_data@Base 1.5.1
- lodepng_chunk_data_const@Base 1.5.1
- lodepng_chunk_generate_crc@Base 1.5.1
- lodepng_chunk_length@Base 1.5.1
- lodepng_chunk_next@Base 1.5.1
- lodepng_chunk_next_const@Base 1.5.1
- lodepng_chunk_private@Base 1.5.1
- lodepng_chunk_safetocopy@Base 1.5.1
- lodepng_chunk_type@Base 1.5.1
- lodepng_chunk_type_equals@Base 1.5.1
- lodepng_clear_itext@Base 1.5.1
- lodepng_clear_text@Base 1.5.1
- lodepng_color_mode_cleanup@Base 1.5.1
- lodepng_color_mode_copy@Base 1.5.1
- lodepng_color_mode_init@Base 1.5.1
- lodepng_compress_settings_init@Base 1.5.1
- lodepng_convert@Base 1.5.1
- lodepng_crc32@Base 1.5.1
- lodepng_decode24@Base 1.5.1
- lodepng_decode24_file@Base 1.5.1
- lodepng_decode32@Base 1.5.1
- lodepng_decode32_file@Base 1.5.1
- lodepng_decode@Base 1.5.1
- lodepng_decode_file@Base 1.5.1
- lodepng_decode_memory@Base 1.5.1
- lodepng_decoder_settings_init@Base 1.5.1
- lodepng_decompress_settings_init@Base 1.5.1
- lodepng_default_compress_settings@Base 1.5.1
- lodepng_default_decompress_settings@Base 1.5.1
- lodepng_deflate@Base 1.5.1
- lodepng_encode24@Base 1.5.1
- lodepng_encode24_file@Base 1.5.1
- lodepng_encode32@Base 1.5.1
- lodepng_encode32_file@Base 1.5.1
- lodepng_encode@Base 1.5.1
- lodepng_encode_file@Base 1.5.1
- lodepng_encode_memory@Base 1.5.1
- lodepng_encoder_settings_init@Base 1.5.1
- lodepng_error_text@Base 1.5.1
- lodepng_get_bpp@Base 1.5.1
- lodepng_get_channels@Base 1.5.1
- lodepng_get_raw_size@Base 1.5.1
- lodepng_get_raw_size_lct@Base 1.5.1
- lodepng_has_palette_alpha@Base 1.5.1
- lodepng_huffman_code_lengths@Base 1.5.1
- lodepng_inflate@Base 1.5.1
- lodepng_info_cleanup@Base 1.5.1
- lodepng_info_copy@Base 1.5.1
- lodepng_info_init@Base 1.5.1
- lodepng_info_swap@Base 1.5.1
- lodepng_inspect@Base 1.5.1
- lodepng_is_alpha_type@Base 1.5.1
- lodepng_is_greyscale_type@Base 1.5.1
- lodepng_is_palette_type@Base 1.5.1
- lodepng_load_file@Base 1.5.1
- lodepng_palette_add@Base 1.5.1
- lodepng_palette_clear@Base 1.5.1
- lodepng_read32bitInt@Base 1.5.1
- lodepng_save_file@Base 1.5.1
- lodepng_state_cleanup@Base 1.5.1
- lodepng_state_copy@Base 1.5.1
- lodepng_state_init@Base 1.5.1
- lodepng_zlib_compress@Base 1.5.1
- lodepng_zlib_decompress@Base 1.5.1
- namegen_generator_check@Base 1.5.1
- namegen_generator_delete@Base 1.5.1
- namegen_generator_get@Base 1.5.1
- namegen_generator_new@Base 1.5.1
- namegen_generators_list@Base 1.5.1
- namegen_get_sets_on_error@Base 1.5.1
- namegen_listener@Base 1.5.1
- namegen_name@Base 1.5.1
- namegen_name_size@Base 1.5.1
- namegen_parser@Base 1.5.1
- namegen_parser_end_struct@Base 1.5.1
- namegen_parser_error@Base 1.5.1
- namegen_parser_flag@Base 1.5.1
- namegen_parser_new_struct@Base 1.5.1
- namegen_parser_prepare@Base 1.5.1
- namegen_parser_property@Base 1.5.1
- namegen_parser_run@Base 1.5.1
- namegen_populate@Base 1.5.1
- namegen_populate_list@Base 1.5.1
- namegen_random@Base 1.5.1
- namegen_syllables_delete@Base 1.5.1
- namegen_syllables_new@Base 1.5.1
- namegen_word_has_illegal@Base 1.5.1
- namegen_word_has_triples@Base 1.5.1
- namegen_word_is_ok@Base 1.5.1
- namegen_word_prune_spaces@Base 1.5.1
- namegen_word_prune_syllables@Base 1.5.1
- parsed_files@Base 1.5.1
- parser_data@Base 1.5.1
- parser_output@Base 1.5.1
- put16@Base 1.5.1
- put32@Base 1.5.1
- put8@Base 1.5.1
- putData@Base 1.5.1
- putFourCC@Base 1.5.1
- rgbdist@Base 1.5.1
- start_angle@Base 1.5.1
 libtcodgui.so.1 libtcod1 #MINVER#
  (c++)RadioButton::groupSelect@Base 1.5.1
  (c++)RadioButton::defaultGroup@Base 1.5.1
@@ -1068,7 +933,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"vtable for Separator@Base" 1.5.1
  (c++)"vtable for StatusBar@Base" 1.5.1
 libtcodxx.so.1 libtcod1 #MINVER#
- TCOD_CRenderer@Base 1.5.1
  (c++)"TCOD_path_func(int, int, int, int, void*)@Base" 1.5.1
  (c++)"TCODParser::newStructure(char const*)@Base" 1.5.1
  (c++)"TCODParser::newCustomType(TCOD_value_t (*)(TCOD_lex_t*, TCOD_parser_listener_t*, void*, char*))@Base" 1.5.1
@@ -1648,9 +1512,3 @@ libtcodxx.so.1 libtcod1 #MINVER#
  (c++)"vtable for TCODImage@Base" 1.5.1
  (c++)"vtable for TCODNoise@Base" 1.5.1
  (c++)"operator*(float, TCODColor const&)@Base" 1.5.1
- end_struct@Base 1.5.1
- error@Base 1.5.1
- internalListener@Base 1.5.1
- new_flag@Base 1.5.1
- new_property@Base 1.5.1
- new_struct@Base 1.5.1
