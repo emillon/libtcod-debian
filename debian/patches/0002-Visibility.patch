@@ -24,3 +24,18 @@
  
  #ifdef __cplusplus
  extern "C" {
+--- a/include/gui/gui.hpp
++++ b/include/gui/gui.hpp
+@@ -16,8 +16,12 @@
+ #define TCODLIB_GUI_API __declspec(dllimport)
+ #endif
+ #else
++#ifdef TCOD_GCC
++#define TCODLIB_GUI_API __attribute__((visibility("default")))
++#else
+ #define TCODLIB_GUI_API
+ #endif
++#endif
+ 
+ #include "widget.hpp"
+ #include "button.hpp"
