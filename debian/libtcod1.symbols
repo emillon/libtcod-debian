@@ -75,7 +75,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_fill_char@Base 1.5.1
  TCOD_console_fill_foreground@Base 1.5.1
  TCOD_console_flush@Base 1.5.1
- TCOD_console_forward_utf@Base 1.5.1
  TCOD_console_from_file@Base 1.5.1
  TCOD_console_get_alignment@Base 1.5.1
  TCOD_console_get_background_flag@Base 1.5.1
@@ -146,15 +145,11 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_set_key_color_wrapper@Base 1.5.1
  TCOD_console_set_keyboard_repeat@Base 1.5.1
  TCOD_console_set_window_title@Base 1.5.1
- TCOD_console_strchr@Base 1.5.1
- TCOD_console_strchr_utf@Base 1.5.1
- TCOD_console_stringLength_utf@Base 1.5.1
  TCOD_console_vline@Base 1.5.1
  TCOD_console_wait_for_keypress@Base 1.5.1
  TCOD_console_wait_for_keypress_wrapper@Base 1.5.1
  TCOD_copper@Base 1.5.1
  TCOD_crimson@Base 1.5.1
- TCOD_ctx@Base 1.5.1
  TCOD_cyan@Base 1.5.1
  TCOD_dark_amber@Base 1.5.1
  TCOD_dark_azure@Base 1.5.1
@@ -302,7 +297,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_image_clear@Base 1.5.1
  TCOD_image_clear_wrapper@Base 1.5.1
  TCOD_image_delete@Base 1.5.1
- TCOD_image_delete_internal@Base 1.5.1
  TCOD_image_from_console@Base 1.5.1
  TCOD_image_get_alpha@Base 1.5.1
  TCOD_image_get_mipmap_pixel@Base 1.5.1
@@ -327,15 +321,8 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_lex_delete@Base 1.5.1
  TCOD_lex_expect_token_type@Base 1.5.1
  TCOD_lex_expect_token_value@Base 1.5.1
- TCOD_lex_get_char@Base 1.5.1
- TCOD_lex_get_iden@Base 1.5.1
  TCOD_lex_get_last_error@Base 1.5.1
  TCOD_lex_get_last_javadoc@Base 1.5.1
- TCOD_lex_get_new_line@Base 1.5.1
- TCOD_lex_get_number@Base 1.5.1
- TCOD_lex_get_space@Base 1.5.1
- TCOD_lex_get_string@Base 1.5.1
- TCOD_lex_get_symbol@Base 1.5.1
  TCOD_lex_get_token_name@Base 1.5.1
  TCOD_lex_hextoint@Base 1.5.1
  TCOD_lex_new@Base 1.5.1
@@ -346,7 +333,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_lex_restore@Base 1.5.1
  TCOD_lex_savepoint@Base 1.5.1
  TCOD_lex_set_data_buffer@Base 1.5.1
- TCOD_lex_set_data_buffer_internal@Base 1.5.1
  TCOD_lex_set_data_file@Base 1.5.1
  TCOD_light_amber@Base 1.5.1
  TCOD_light_azure@Base 1.5.1
@@ -454,8 +440,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_magenta@Base 1.5.1
  TCOD_map_clear@Base 1.5.1
  TCOD_map_compute_fov@Base 1.5.1
- TCOD_map_compute_fov_circular_raycastingi@Base 1.5.1
- TCOD_map_compute_fov_restrictive_shadowcasting_quadrant@Base 1.5.1
  TCOD_map_copy@Base 1.5.1
  TCOD_map_delete@Base 1.5.1
  TCOD_map_get_height@Base 1.5.1
