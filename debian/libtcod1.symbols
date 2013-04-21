@@ -877,12 +877,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)Container::~Container()@Base 1.5.1
  (c++)Container::~Container()@Base 1.5.1
  (c++)Container::~Container()@Base 1.5.1
- (c++)Separator::computeSize()@Base 1.5.1
- (c++)"Separator::expand(int, int)@Base" 1.5.1
- (c++)Separator::render()@Base 1.5.1
- (c++)Separator::~Separator()@Base 1.5.1
- (c++)Separator::~Separator()@Base 1.5.1
- (c++)Separator::~Separator()@Base 1.5.1
  (c++)StatusBar::render()@Base 1.5.1
  (c++)StatusBar::~StatusBar()@Base 1.5.1
  (c++)StatusBar::~StatusBar()@Base 1.5.1
@@ -900,7 +894,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"typeinfo for ToolBar@Base" 1.5.1
  (c++)"typeinfo for FlatList@Base" 1.5.1
  (c++)"typeinfo for Container@Base" 1.5.1
- (c++)"typeinfo for Separator@Base" 1.5.1
  (c++)"typeinfo for StatusBar@Base" 1.5.1
  (c++)"typeinfo name for RadioButton@Base" 1.5.1
  (c++)"typeinfo name for ToggleButton@Base" 1.5.1
@@ -915,7 +908,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"typeinfo name for ToolBar@Base" 1.5.1
  (c++)"typeinfo name for FlatList@Base" 1.5.1
  (c++)"typeinfo name for Container@Base" 1.5.1
- (c++)"typeinfo name for Separator@Base" 1.5.1
  (c++)"typeinfo name for StatusBar@Base" 1.5.1
  (c++)"vtable for RadioButton@Base" 1.5.1
  (c++)"vtable for ToggleButton@Base" 1.5.1
@@ -930,7 +922,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"vtable for ToolBar@Base" 1.5.1
  (c++)"vtable for FlatList@Base" 1.5.1
  (c++)"vtable for Container@Base" 1.5.1
- (c++)"vtable for Separator@Base" 1.5.1
  (c++)"vtable for StatusBar@Base" 1.5.1
 libtcodxx.so.1 libtcod1 #MINVER#
  (c++)"TCODParser::newStructure(char const*)@Base" 1.5.1
