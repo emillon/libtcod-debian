@@ -142,7 +142,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_set_fade_wrapper@Base 1.5.1
  TCOD_console_set_fullscreen@Base 1.5.1
  TCOD_console_set_key_color@Base 1.5.1
- TCOD_console_set_key_color_wrapper@Base 1.5.1
  TCOD_console_set_keyboard_repeat@Base 1.5.1
  TCOD_console_set_window_title@Base 1.5.1
  TCOD_console_vline@Base 1.5.1
@@ -468,9 +467,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_namegen_get_sets_wrapper@Base 1.5.1
  TCOD_namegen_parse@Base 1.5.1
  TCOD_noise_delete@Base 1.5.1
- TCOD_noise_fbm_perlin@Base 1.5.1
- TCOD_noise_fbm_simplex@Base 1.5.1
- TCOD_noise_fbm_wavelet@Base 1.5.1
  TCOD_noise_get@Base 1.5.1
  TCOD_noise_get_ex@Base 1.5.1
  TCOD_noise_get_fbm@Base 1.5.1
@@ -478,14 +474,7 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_noise_get_turbulence@Base 1.5.1
  TCOD_noise_get_turbulence_ex@Base 1.5.1
  TCOD_noise_new@Base 1.5.1
- TCOD_noise_perlin@Base 1.5.1
  TCOD_noise_set_type@Base 1.5.1
- TCOD_noise_simplex@Base 1.5.1
- TCOD_noise_turbulence_perlin@Base 1.5.1
- TCOD_noise_turbulence_simplex@Base 1.5.1
- TCOD_noise_turbulence_wavelet@Base 1.5.1
- TCOD_noise_wavelet@Base 1.5.1
- TCOD_opengl_putchar_ex@Base 1.5.1
  TCOD_orange@Base 1.5.1
  TCOD_parse_bool_value@Base 1.5.1
  TCOD_parse_char_value@Base 1.5.1
@@ -531,28 +520,10 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_random_dice_new@Base 1.5.1
  TCOD_random_dice_roll@Base 1.5.1
  TCOD_random_dice_roll_s@Base 1.5.1
- TCOD_random_get_d@Base 1.5.1
  TCOD_random_get_double@Base 1.5.1
  TCOD_random_get_double_mean@Base 1.5.1
- TCOD_random_get_f@Base 1.5.1
  TCOD_random_get_float@Base 1.5.1
  TCOD_random_get_float_mean@Base 1.5.1
- TCOD_random_get_gaussian_double@Base 1.5.1
- TCOD_random_get_gaussian_double_inv@Base 1.5.1
- TCOD_random_get_gaussian_double_range@Base 1.5.1
- TCOD_random_get_gaussian_double_range_custom@Base 1.5.1
- TCOD_random_get_gaussian_double_range_custom_inv@Base 1.5.1
- TCOD_random_get_gaussian_double_range_inv@Base 1.5.1
- TCOD_random_get_gaussian_float@Base 1.5.1
- TCOD_random_get_gaussian_float_inv@Base 1.5.1
- TCOD_random_get_gaussian_float_range@Base 1.5.1
- TCOD_random_get_gaussian_float_range_custom@Base 1.5.1
- TCOD_random_get_gaussian_float_range_custom_inv@Base 1.5.1
- TCOD_random_get_gaussian_float_range_inv@Base 1.5.1
- TCOD_random_get_gaussian_int@Base 1.5.1
- TCOD_random_get_gaussian_int_inv@Base 1.5.1
- TCOD_random_get_gaussian_int_range@Base 1.5.1
- TCOD_random_get_gaussian_int_range_custom@Base 1.5.1
  TCOD_random_get_gaussian_int_range_custom_inv@Base 1.5.1
  TCOD_random_get_gaussian_int_range_inv@Base 1.5.1
  TCOD_random_get_i@Base 1.5.1
