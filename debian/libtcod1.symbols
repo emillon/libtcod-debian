@@ -524,9 +524,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_random_get_double_mean@Base 1.5.1
  TCOD_random_get_float@Base 1.5.1
  TCOD_random_get_float_mean@Base 1.5.1
- TCOD_random_get_gaussian_int_range_custom_inv@Base 1.5.1
- TCOD_random_get_gaussian_int_range_inv@Base 1.5.1
- TCOD_random_get_i@Base 1.5.1
  TCOD_random_get_instance@Base 1.5.1
  TCOD_random_get_int@Base 1.5.1
  TCOD_random_get_int_mean@Base 1.5.1
