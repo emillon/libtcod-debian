@@ -15,8 +15,6 @@ override_dh_auto_install:
 	install libtcod.so debian/tmp/usr/lib/libtcod.so.$(soname)
 	install libtcodgui.so debian/tmp/usr/lib/libtcodgui.so.$(soname)
 	install libtcodxx.so debian/tmp/usr/lib/libtcodxx.so.$(soname)
-	mkdir -p debian/tmp/usr/include
-	install -t debian/tmp/usr/include include/libtcod.h include/libtcod.hpp
 	cd debian/tmp/usr/lib ; ln -s libtcod.so.$(soname) libtcod.so.$(upstream_version)
 	cd debian/tmp/usr/lib ; ln -s libtcodgui.so.$(soname) libtcodgui.so.$(upstream_version)
 	cd debian/tmp/usr/lib ; ln -s libtcodxx.so.$(soname) libtcodxx.so.$(upstream_version)
