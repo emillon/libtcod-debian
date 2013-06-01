@@ -30,6 +30,9 @@ override_dh_auto_clean:
 override_dh_installchangelogs:
 	dh_installchangelogs libtcod-CHANGELOG.txt
 
+override_dh_strip:
+	dh_strip --dbg-package=libtcod1-dbg
+
 get-orig-source:
 	@if [ ! -e "debian/changelog" ] ; then \
 	    echo 'Run this from the top directory of the Debian source' >&2; \
