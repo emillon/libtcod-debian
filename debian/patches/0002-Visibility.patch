@@ -1,3 +1,10 @@
+From: Etienne Millon
+Subject: Set correct visibility
+
+By default, all non-static symbols are visible in the resulting dynamic library.
+This patch changes this opt-out behaviour to a opt-in one based on the existing
+TCODLIB_API annotation.
+
 --- a/makefiles/makefile-linux
 +++ b/makefiles/makefile-linux
 @@ -18,7 +18,7 @@
