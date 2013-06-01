@@ -4,6 +4,7 @@ libtcod (1.5.1+dfsg2-1) UNRELEASED; urgency=low
     - repack to remove binaries in original tarball
   * Patches :
     - setup Makefile
+    - fix symbols visibility
     - move headers to a subdirectory
 
  -- Etienne Millon <etienne.millon@gmail.com>  Wed, 03 Apr 2013 11:49:23 +0200
