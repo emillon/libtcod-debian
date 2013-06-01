@@ -1,6 +1,4 @@
 libtcod.so.1 libtcod1 #MINVER#
- ConsoleDataAlignment@Base 1.5.1
- DllMain@Base 1.5.1
  TCOD_amber@Base 1.5.1
  TCOD_azure@Base 1.5.1
  TCOD_black@Base 1.5.1
@@ -77,12 +75,9 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_fill_char@Base 1.5.1
  TCOD_console_fill_foreground@Base 1.5.1
  TCOD_console_flush@Base 1.5.1
- TCOD_console_forward@Base 1.5.1
- TCOD_console_forward_utf@Base 1.5.1
  TCOD_console_from_file@Base 1.5.1
  TCOD_console_get_alignment@Base 1.5.1
  TCOD_console_get_background_flag@Base 1.5.1
- TCOD_console_get_buf@Base 1.5.1
  TCOD_console_get_char@Base 1.5.1
  TCOD_console_get_char_background@Base 1.5.1
  TCOD_console_get_char_background_wrapper@Base 1.5.1
@@ -100,7 +95,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_get_height_rect_utf@Base 1.5.1
  TCOD_console_get_width@Base 1.5.1
  TCOD_console_hline@Base 1.5.1
- TCOD_console_init@Base 1.5.1
  TCOD_console_init_root@Base 1.5.1
  TCOD_console_is_fullscreen@Base 1.5.1
  TCOD_console_is_key_pressed@Base 1.5.1
@@ -117,8 +111,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_print_ex@Base 1.5.1
  TCOD_console_print_ex_utf@Base 1.5.1
  TCOD_console_print_frame@Base 1.5.1
- TCOD_console_print_internal@Base 1.5.1
- TCOD_console_print_internal_utf@Base 1.5.1
  TCOD_console_print_rect@Base 1.5.1
  TCOD_console_print_rect_ex@Base 1.5.1
  TCOD_console_print_rect_ex_utf@Base 1.5.1
@@ -150,22 +142,13 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_console_set_fade_wrapper@Base 1.5.1
  TCOD_console_set_fullscreen@Base 1.5.1
  TCOD_console_set_key_color@Base 1.5.1
- TCOD_console_set_key_color_wrapper@Base 1.5.1
  TCOD_console_set_keyboard_repeat@Base 1.5.1
- TCOD_console_set_window_closed@Base 1.5.1
  TCOD_console_set_window_title@Base 1.5.1
- TCOD_console_strchr@Base 1.5.1
- TCOD_console_strchr_utf@Base 1.5.1
- TCOD_console_stringLength@Base 1.5.1
- TCOD_console_stringLength_utf@Base 1.5.1
  TCOD_console_vline@Base 1.5.1
- TCOD_console_vsprint@Base 1.5.1
- TCOD_console_vsprint_utf@Base 1.5.1
  TCOD_console_wait_for_keypress@Base 1.5.1
  TCOD_console_wait_for_keypress_wrapper@Base 1.5.1
  TCOD_copper@Base 1.5.1
  TCOD_crimson@Base 1.5.1
- TCOD_ctx@Base 1.5.1
  TCOD_cyan@Base 1.5.1
  TCOD_dark_amber@Base 1.5.1
  TCOD_dark_azure@Base 1.5.1
@@ -271,8 +254,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_dijkstra_path_walk@Base 1.5.1
  TCOD_dijkstra_reverse@Base 1.5.1
  TCOD_dijkstra_size@Base 1.5.1
- TCOD_fatal@Base 1.5.1
- TCOD_fatal_nopar@Base 1.5.1
  TCOD_flame@Base 1.5.1
  TCOD_fuchsia@Base 1.5.1
  TCOD_get_function_address@Base 1.5.1
@@ -315,7 +296,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_image_clear@Base 1.5.1
  TCOD_image_clear_wrapper@Base 1.5.1
  TCOD_image_delete@Base 1.5.1
- TCOD_image_delete_internal@Base 1.5.1
  TCOD_image_from_console@Base 1.5.1
  TCOD_image_get_alpha@Base 1.5.1
  TCOD_image_get_mipmap_pixel@Base 1.5.1
@@ -340,15 +320,8 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_lex_delete@Base 1.5.1
  TCOD_lex_expect_token_type@Base 1.5.1
  TCOD_lex_expect_token_value@Base 1.5.1
- TCOD_lex_get_char@Base 1.5.1
- TCOD_lex_get_iden@Base 1.5.1
  TCOD_lex_get_last_error@Base 1.5.1
  TCOD_lex_get_last_javadoc@Base 1.5.1
- TCOD_lex_get_new_line@Base 1.5.1
- TCOD_lex_get_number@Base 1.5.1
- TCOD_lex_get_space@Base 1.5.1
- TCOD_lex_get_string@Base 1.5.1
- TCOD_lex_get_symbol@Base 1.5.1
  TCOD_lex_get_token_name@Base 1.5.1
  TCOD_lex_hextoint@Base 1.5.1
  TCOD_lex_new@Base 1.5.1
@@ -359,7 +332,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_lex_restore@Base 1.5.1
  TCOD_lex_savepoint@Base 1.5.1
  TCOD_lex_set_data_buffer@Base 1.5.1
- TCOD_lex_set_data_buffer_internal@Base 1.5.1
  TCOD_lex_set_data_file@Base 1.5.1
  TCOD_light_amber@Base 1.5.1
  TCOD_light_azure@Base 1.5.1
@@ -462,19 +434,11 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_list_remove_iterator_fast@Base 1.5.1
  TCOD_list_reverse@Base 1.5.1
  TCOD_list_set@Base 1.5.1
- TCOD_list_set_size@Base 1.5.1
  TCOD_list_size@Base 1.5.1
  TCOD_load_library@Base 1.5.1
  TCOD_magenta@Base 1.5.1
  TCOD_map_clear@Base 1.5.1
  TCOD_map_compute_fov@Base 1.5.1
- TCOD_map_compute_fov_circular_raycasting@Base 1.5.1
- TCOD_map_compute_fov_circular_raycastingi@Base 1.5.1
- TCOD_map_compute_fov_diamond_raycasting@Base 1.5.1
- TCOD_map_compute_fov_permissive2@Base 1.5.1
- TCOD_map_compute_fov_recursive_shadowcasting@Base 1.5.1
- TCOD_map_compute_fov_restrictive_shadowcasting@Base 1.5.1
- TCOD_map_compute_fov_restrictive_shadowcasting_quadrant@Base 1.5.1
  TCOD_map_copy@Base 1.5.1
  TCOD_map_delete@Base 1.5.1
  TCOD_map_get_height@Base 1.5.1
@@ -484,7 +448,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_map_is_transparent@Base 1.5.1
  TCOD_map_is_walkable@Base 1.5.1
  TCOD_map_new@Base 1.5.1
- TCOD_map_postproc@Base 1.5.1
  TCOD_map_set_in_fov@Base 1.5.1
  TCOD_map_set_properties@Base 1.5.1
  TCOD_mouse_get_status@Base 1.5.1
@@ -504,9 +467,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_namegen_get_sets_wrapper@Base 1.5.1
  TCOD_namegen_parse@Base 1.5.1
  TCOD_noise_delete@Base 1.5.1
- TCOD_noise_fbm_perlin@Base 1.5.1
- TCOD_noise_fbm_simplex@Base 1.5.1
- TCOD_noise_fbm_wavelet@Base 1.5.1
  TCOD_noise_get@Base 1.5.1
  TCOD_noise_get_ex@Base 1.5.1
  TCOD_noise_get_fbm@Base 1.5.1
@@ -514,20 +474,7 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_noise_get_turbulence@Base 1.5.1
  TCOD_noise_get_turbulence_ex@Base 1.5.1
  TCOD_noise_new@Base 1.5.1
- TCOD_noise_perlin@Base 1.5.1
  TCOD_noise_set_type@Base 1.5.1
- TCOD_noise_simplex@Base 1.5.1
- TCOD_noise_turbulence_perlin@Base 1.5.1
- TCOD_noise_turbulence_simplex@Base 1.5.1
- TCOD_noise_turbulence_wavelet@Base 1.5.1
- TCOD_noise_wavelet@Base 1.5.1
- TCOD_opengl_get_screen@Base 1.5.1
- TCOD_opengl_init_attributes@Base 1.5.1
- TCOD_opengl_init_shaders@Base 1.5.1
- TCOD_opengl_init_state@Base 1.5.1
- TCOD_opengl_putchar_ex@Base 1.5.1
- TCOD_opengl_render@Base 1.5.1
- TCOD_opengl_swap@Base 1.5.1
  TCOD_orange@Base 1.5.1
  TCOD_parse_bool_value@Base 1.5.1
  TCOD_parse_char_value@Base 1.5.1
@@ -573,31 +520,10 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_random_dice_new@Base 1.5.1
  TCOD_random_dice_roll@Base 1.5.1
  TCOD_random_dice_roll_s@Base 1.5.1
- TCOD_random_get_d@Base 1.5.1
  TCOD_random_get_double@Base 1.5.1
  TCOD_random_get_double_mean@Base 1.5.1
- TCOD_random_get_f@Base 1.5.1
  TCOD_random_get_float@Base 1.5.1
  TCOD_random_get_float_mean@Base 1.5.1
- TCOD_random_get_gaussian_double@Base 1.5.1
- TCOD_random_get_gaussian_double_inv@Base 1.5.1
- TCOD_random_get_gaussian_double_range@Base 1.5.1
- TCOD_random_get_gaussian_double_range_custom@Base 1.5.1
- TCOD_random_get_gaussian_double_range_custom_inv@Base 1.5.1
- TCOD_random_get_gaussian_double_range_inv@Base 1.5.1
- TCOD_random_get_gaussian_float@Base 1.5.1
- TCOD_random_get_gaussian_float_inv@Base 1.5.1
- TCOD_random_get_gaussian_float_range@Base 1.5.1
- TCOD_random_get_gaussian_float_range_custom@Base 1.5.1
- TCOD_random_get_gaussian_float_range_custom_inv@Base 1.5.1
- TCOD_random_get_gaussian_float_range_inv@Base 1.5.1
- TCOD_random_get_gaussian_int@Base 1.5.1
- TCOD_random_get_gaussian_int_inv@Base 1.5.1
- TCOD_random_get_gaussian_int_range@Base 1.5.1
- TCOD_random_get_gaussian_int_range_custom@Base 1.5.1
- TCOD_random_get_gaussian_int_range_custom_inv@Base 1.5.1
- TCOD_random_get_gaussian_int_range_inv@Base 1.5.1
- TCOD_random_get_i@Base 1.5.1
  TCOD_random_get_instance@Base 1.5.1
  TCOD_random_get_int@Base 1.5.1
  TCOD_random_get_int_mean@Base 1.5.1
@@ -627,24 +553,15 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_struct_get_name@Base 1.5.1
  TCOD_struct_get_type@Base 1.5.1
  TCOD_struct_is_mandatory@Base 1.5.1
- TCOD_sys_check_bmp@Base 1.5.1
  TCOD_sys_check_for_event@Base 1.5.1
- TCOD_sys_check_for_keypress@Base 1.5.1
- TCOD_sys_check_magic_number@Base 1.5.1
- TCOD_sys_check_png@Base 1.5.1
  TCOD_sys_clipboard_get@Base 1.5.1
  TCOD_sys_clipboard_set@Base 1.5.1
- TCOD_sys_console_to_bitmap@Base 1.5.1
- TCOD_sys_create_bitmap@Base 1.5.1
- TCOD_sys_create_bitmap_for_console@Base 1.5.1
  TCOD_sys_create_directory@Base 1.5.1
- TCOD_sys_delete_bitmap@Base 1.5.1
  TCOD_sys_delete_directory@Base 1.5.1
  TCOD_sys_delete_file@Base 1.5.1
  TCOD_sys_elapsed_milli@Base 1.5.1
  TCOD_sys_elapsed_seconds@Base 1.5.1
  TCOD_sys_file_exists@Base 1.5.1
- TCOD_sys_flush@Base 1.5.1
  TCOD_sys_force_fullscreen_resolution@Base 1.5.1
  TCOD_sys_get_char_size@Base 1.5.1
  TCOD_sys_get_current_resolution@Base 1.5.1
@@ -653,42 +570,22 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_sys_get_directory_content@Base 1.5.1
  TCOD_sys_get_fps@Base 1.5.1
  TCOD_sys_get_fullscreen_offsets@Base 1.5.1
- TCOD_sys_get_image_alpha@Base 1.5.1
- TCOD_sys_get_image_pixel@Base 1.5.1
- TCOD_sys_get_image_size@Base 1.5.1
  TCOD_sys_get_last_frame_length@Base 1.5.1
  TCOD_sys_get_num_cores@Base 1.5.1
  TCOD_sys_get_renderer@Base 1.5.1
  TCOD_sys_get_surface@Base 1.5.1
- TCOD_sys_init@Base 1.5.1
  TCOD_sys_is_directory@Base 1.5.1
- TCOD_sys_is_key_pressed@Base 1.5.1
- TCOD_sys_load_font@Base 1.5.1
  TCOD_sys_load_image@Base 1.5.1
- TCOD_sys_map_ascii_to_font@Base 1.5.1
- TCOD_sys_read_bmp@Base 1.5.1
  TCOD_sys_read_file@Base 1.5.1
- TCOD_sys_read_png@Base 1.5.1
  TCOD_sys_register_SDL_renderer@Base 1.5.1
- TCOD_sys_restore_fps@Base 1.5.1
- TCOD_sys_save_bitmap@Base 1.5.1
- TCOD_sys_save_fps@Base 1.5.1
  TCOD_sys_save_screenshot@Base 1.5.1
- TCOD_sys_set_custom_font@Base 1.5.1
  TCOD_sys_set_fps@Base 1.5.1
- TCOD_sys_set_fullscreen@Base 1.5.1
- TCOD_sys_set_keyboard_repeat@Base 1.5.1
  TCOD_sys_set_renderer@Base 1.5.1
- TCOD_sys_set_window_title@Base 1.5.1
  TCOD_sys_sleep_milli@Base 1.5.1
  TCOD_sys_startup@Base 1.5.1
- TCOD_sys_term@Base 1.5.1
  TCOD_sys_update_char@Base 1.5.1
  TCOD_sys_wait_for_event@Base 1.5.1
- TCOD_sys_wait_for_keypress@Base 1.5.1
- TCOD_sys_write_bmp@Base 1.5.1
  TCOD_sys_write_file@Base 1.5.1
- TCOD_sys_write_png@Base 1.5.1
  TCOD_text_delete@Base 1.5.1
  TCOD_text_get@Base 1.5.1
  TCOD_text_init@Base 1.5.1
@@ -729,139 +626,6 @@ libtcod.so.1 libtcod1 #MINVER#
  TCOD_zip_put_string@Base 1.5.1
  TCOD_zip_save_to_file@Base 1.5.1
  TCOD_zip_skip_bytes@Base 1.5.1
- _CheckGL_Error@Base 1.5.1
- allocated@Base 1.5.1
- bswap16@Base 1.5.1
- bswap32@Base 1.5.1
- detectBigEndianness@Base 1.5.1
- dijkstra_get_int_distance@Base 1.5.1
- end_angle@Base 1.5.1
- fix16@Base 1.5.1
- fix32@Base 1.5.1
- fixImage@Base 1.5.1
- fixLayerv1@Base 1.5.1
- fixLayerv2@Base 1.5.1
- fixSettings@Base 1.5.1
- fourCC@Base 1.5.1
- fourCCequals@Base 1.5.1
- fromFourCC@Base 1.5.1
- get16@Base 1.5.1
- get32@Base 1.5.1
- get8@Base 1.5.1
- getData@Base 1.5.1
- getPattern@Base 1.5.1
- getValueRequiredBits@Base 1.5.1
- int_to_color@Base 1.5.1
- l16@Base 1.5.1
- l32@Base 1.5.1
- lodepng_add_itext@Base 1.5.1
- lodepng_add_text@Base 1.5.1
- lodepng_can_have_alpha@Base 1.5.1
- lodepng_chunk_ancillary@Base 1.5.1
- lodepng_chunk_append@Base 1.5.1
- lodepng_chunk_check_crc@Base 1.5.1
- lodepng_chunk_create@Base 1.5.1
- lodepng_chunk_data@Base 1.5.1
- lodepng_chunk_data_const@Base 1.5.1
- lodepng_chunk_generate_crc@Base 1.5.1
- lodepng_chunk_length@Base 1.5.1
- lodepng_chunk_next@Base 1.5.1
- lodepng_chunk_next_const@Base 1.5.1
- lodepng_chunk_private@Base 1.5.1
- lodepng_chunk_safetocopy@Base 1.5.1
- lodepng_chunk_type@Base 1.5.1
- lodepng_chunk_type_equals@Base 1.5.1
- lodepng_clear_itext@Base 1.5.1
- lodepng_clear_text@Base 1.5.1
- lodepng_color_mode_cleanup@Base 1.5.1
- lodepng_color_mode_copy@Base 1.5.1
- lodepng_color_mode_init@Base 1.5.1
- lodepng_compress_settings_init@Base 1.5.1
- lodepng_convert@Base 1.5.1
- lodepng_crc32@Base 1.5.1
- lodepng_decode24@Base 1.5.1
- lodepng_decode24_file@Base 1.5.1
- lodepng_decode32@Base 1.5.1
- lodepng_decode32_file@Base 1.5.1
- lodepng_decode@Base 1.5.1
- lodepng_decode_file@Base 1.5.1
- lodepng_decode_memory@Base 1.5.1
- lodepng_decoder_settings_init@Base 1.5.1
- lodepng_decompress_settings_init@Base 1.5.1
- lodepng_default_compress_settings@Base 1.5.1
- lodepng_default_decompress_settings@Base 1.5.1
- lodepng_deflate@Base 1.5.1
- lodepng_encode24@Base 1.5.1
- lodepng_encode24_file@Base 1.5.1
- lodepng_encode32@Base 1.5.1
- lodepng_encode32_file@Base 1.5.1
- lodepng_encode@Base 1.5.1
- lodepng_encode_file@Base 1.5.1
- lodepng_encode_memory@Base 1.5.1
- lodepng_encoder_settings_init@Base 1.5.1
- lodepng_error_text@Base 1.5.1
- lodepng_get_bpp@Base 1.5.1
- lodepng_get_channels@Base 1.5.1
- lodepng_get_raw_size@Base 1.5.1
- lodepng_get_raw_size_lct@Base 1.5.1
- lodepng_has_palette_alpha@Base 1.5.1
- lodepng_huffman_code_lengths@Base 1.5.1
- lodepng_inflate@Base 1.5.1
- lodepng_info_cleanup@Base 1.5.1
- lodepng_info_copy@Base 1.5.1
- lodepng_info_init@Base 1.5.1
- lodepng_info_swap@Base 1.5.1
- lodepng_inspect@Base 1.5.1
- lodepng_is_alpha_type@Base 1.5.1
- lodepng_is_greyscale_type@Base 1.5.1
- lodepng_is_palette_type@Base 1.5.1
- lodepng_load_file@Base 1.5.1
- lodepng_palette_add@Base 1.5.1
- lodepng_palette_clear@Base 1.5.1
- lodepng_read32bitInt@Base 1.5.1
- lodepng_save_file@Base 1.5.1
- lodepng_state_cleanup@Base 1.5.1
- lodepng_state_copy@Base 1.5.1
- lodepng_state_init@Base 1.5.1
- lodepng_zlib_compress@Base 1.5.1
- lodepng_zlib_decompress@Base 1.5.1
- namegen_generator_check@Base 1.5.1
- namegen_generator_delete@Base 1.5.1
- namegen_generator_get@Base 1.5.1
- namegen_generator_new@Base 1.5.1
- namegen_generators_list@Base 1.5.1
- namegen_get_sets_on_error@Base 1.5.1
- namegen_listener@Base 1.5.1
- namegen_name@Base 1.5.1
- namegen_name_size@Base 1.5.1
- namegen_parser@Base 1.5.1
- namegen_parser_end_struct@Base 1.5.1
- namegen_parser_error@Base 1.5.1
- namegen_parser_flag@Base 1.5.1
- namegen_parser_new_struct@Base 1.5.1
- namegen_parser_prepare@Base 1.5.1
- namegen_parser_property@Base 1.5.1
- namegen_parser_run@Base 1.5.1
- namegen_populate@Base 1.5.1
- namegen_populate_list@Base 1.5.1
- namegen_random@Base 1.5.1
- namegen_syllables_delete@Base 1.5.1
- namegen_syllables_new@Base 1.5.1
- namegen_word_has_illegal@Base 1.5.1
- namegen_word_has_triples@Base 1.5.1
- namegen_word_is_ok@Base 1.5.1
- namegen_word_prune_spaces@Base 1.5.1
- namegen_word_prune_syllables@Base 1.5.1
- parsed_files@Base 1.5.1
- parser_data@Base 1.5.1
- parser_output@Base 1.5.1
- put16@Base 1.5.1
- put32@Base 1.5.1
- put8@Base 1.5.1
- putData@Base 1.5.1
- putFourCC@Base 1.5.1
- rgbdist@Base 1.5.1
- start_angle@Base 1.5.1
 libtcodgui.so.1 libtcod1 #MINVER#
  (c++)RadioButton::groupSelect@Base 1.5.1
  (c++)RadioButton::defaultGroup@Base 1.5.1
@@ -1003,9 +767,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)FlatList::~FlatList()@Base 1.5.1
  (c++)FlatList::~FlatList()@Base 1.5.1
  (c++)FlatList::~FlatList()@Base 1.5.1
- (c++)TCODList<Widget*>::~TCODList()@Base 1.5.1
- (c++)TCODList<Widget*>::~TCODList()@Base 1.5.1
- (c++)TCODList<Widget*>::~TCODList()@Base 1.5.1
  (c++)Container::setVisible(bool)@Base 1.5.1
  (c++)Container::removeWidget(Widget*)@Base 1.5.1
  (c++)Container::clear()@Base 1.5.1
@@ -1015,12 +776,6 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)Container::~Container()@Base 1.5.1
  (c++)Container::~Container()@Base 1.5.1
  (c++)Container::~Container()@Base 1.5.1
- (c++)Separator::computeSize()@Base 1.5.1
- (c++)"Separator::expand(int, int)@Base" 1.5.1
- (c++)Separator::render()@Base 1.5.1
- (c++)Separator::~Separator()@Base 1.5.1
- (c++)Separator::~Separator()@Base 1.5.1
- (c++)Separator::~Separator()@Base 1.5.1
  (c++)StatusBar::render()@Base 1.5.1
  (c++)StatusBar::~StatusBar()@Base 1.5.1
  (c++)StatusBar::~StatusBar()@Base 1.5.1
@@ -1037,9 +792,7 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"typeinfo for TextBox@Base" 1.5.1
  (c++)"typeinfo for ToolBar@Base" 1.5.1
  (c++)"typeinfo for FlatList@Base" 1.5.1
- (c++)"typeinfo for TCODList<Widget*>@Base" 1.5.1
  (c++)"typeinfo for Container@Base" 1.5.1
- (c++)"typeinfo for Separator@Base" 1.5.1
  (c++)"typeinfo for StatusBar@Base" 1.5.1
  (c++)"typeinfo name for RadioButton@Base" 1.5.1
  (c++)"typeinfo name for ToggleButton@Base" 1.5.1
@@ -1053,9 +806,7 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"typeinfo name for TextBox@Base" 1.5.1
  (c++)"typeinfo name for ToolBar@Base" 1.5.1
  (c++)"typeinfo name for FlatList@Base" 1.5.1
- (c++)"typeinfo name for TCODList<Widget*>@Base" 1.5.1
  (c++)"typeinfo name for Container@Base" 1.5.1
- (c++)"typeinfo name for Separator@Base" 1.5.1
  (c++)"typeinfo name for StatusBar@Base" 1.5.1
  (c++)"vtable for RadioButton@Base" 1.5.1
  (c++)"vtable for ToggleButton@Base" 1.5.1
@@ -1069,13 +820,9 @@ libtcodgui.so.1 libtcod1 #MINVER#
  (c++)"vtable for TextBox@Base" 1.5.1
  (c++)"vtable for ToolBar@Base" 1.5.1
  (c++)"vtable for FlatList@Base" 1.5.1
- (c++)"vtable for TCODList<Widget*>@Base" 1.5.1
  (c++)"vtable for Container@Base" 1.5.1
- (c++)"vtable for Separator@Base" 1.5.1
  (c++)"vtable for StatusBar@Base" 1.5.1
 libtcodxx.so.1 libtcod1 #MINVER#
- TCOD_CRenderer@Base 1.5.1
- (c++)"TCOD_path_func(int, int, int, int, void*)@Base" 1.5.1
  (c++)"TCODParser::newStructure(char const*)@Base" 1.5.1
  (c++)"TCODParser::newCustomType(TCOD_value_t (*)(TCOD_lex_t*, TCOD_parser_listener_t*, void*, char*))@Base" 1.5.1
  (c++)"TCODParser::run(char const*, ITCODParserListener*)@Base" 1.5.1
@@ -1310,12 +1057,6 @@ libtcodxx.so.1 libtcod1 #MINVER#
  (c++)"TCODLine::init(int, int, int, int)@Base" 1.5.1
  (c++)"TCODLine::line(int, int, int, int, TCODLineListener*)@Base" 1.5.1
  (c++)"TCODLine::step(int*, int*)@Base" 1.5.1
- (c++)TCODList<TCODParserStruct*>::~TCODList()@Base 1.5.1
- (c++)TCODList<TCODParserStruct*>::~TCODList()@Base 1.5.1
- (c++)TCODList<TCODParserStruct*>::~TCODList()@Base 1.5.1
- (c++)TCODList<TCODBsp*>::~TCODList()@Base 1.5.1
- (c++)TCODList<TCODBsp*>::~TCODList()@Base 1.5.1
- (c++)TCODList<TCODBsp*>::~TCODList()@Base 1.5.1
  (c++)"TCODPath::walk(int*, int*, bool)@Base" 1.5.1
  (c++)"TCODPath::compute(int, int, int, int)@Base" 1.5.1
  (c++)TCODPath::reverse()@Base 1.5.1
@@ -1638,8 +1379,6 @@ libtcodxx.so.1 libtcod1 #MINVER#
  (c++)"typeinfo for TCODHeightMap@Base" 1.5.1
  (c++)"typeinfo for TCODBsp@Base" 1.5.1
  (c++)"typeinfo for TCODMap@Base" 1.5.1
- (c++)"typeinfo for TCODList<TCODParserStruct*>@Base" 1.5.1
- (c++)"typeinfo for TCODList<TCODBsp*>@Base" 1.5.1
  (c++)"typeinfo for TCODPath@Base" 1.5.1
  (c++)"typeinfo for TCODTree@Base" 1.5.1
  (c++)"typeinfo for TCODImage@Base" 1.5.1
@@ -1649,8 +1388,6 @@ libtcodxx.so.1 libtcod1 #MINVER#
  (c++)"typeinfo name for TCODHeightMap@Base" 1.5.1
  (c++)"typeinfo name for TCODBsp@Base" 1.5.1
  (c++)"typeinfo name for TCODMap@Base" 1.5.1
- (c++)"typeinfo name for TCODList<TCODParserStruct*>@Base" 1.5.1
- (c++)"typeinfo name for TCODList<TCODBsp*>@Base" 1.5.1
  (c++)"typeinfo name for TCODPath@Base" 1.5.1
  (c++)"typeinfo name for TCODTree@Base" 1.5.1
  (c++)"typeinfo name for TCODImage@Base" 1.5.1
@@ -1660,15 +1397,7 @@ libtcodxx.so.1 libtcod1 #MINVER#
  (c++)"vtable for TCODHeightMap@Base" 1.5.1
  (c++)"vtable for TCODBsp@Base" 1.5.1
  (c++)"vtable for TCODMap@Base" 1.5.1
- (c++)"vtable for TCODList<TCODParserStruct*>@Base" 1.5.1
- (c++)"vtable for TCODList<TCODBsp*>@Base" 1.5.1
  (c++)"vtable for TCODPath@Base" 1.5.1
  (c++)"vtable for TCODImage@Base" 1.5.1
  (c++)"vtable for TCODNoise@Base" 1.5.1
  (c++)"operator*(float, TCODColor const&)@Base" 1.5.1
- end_struct@Base 1.5.1
- error@Base 1.5.1
- internalListener@Base 1.5.1
- new_flag@Base 1.5.1
- new_property@Base 1.5.1
- new_struct@Base 1.5.1

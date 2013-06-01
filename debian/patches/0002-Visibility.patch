@@ -1,0 +1,41 @@
+--- a/makefiles/makefile-linux
++++ b/makefiles/makefile-linux
+@@ -18,7 +18,7 @@
+ 
+ LIBS=$(ZLIB_LIBS) $(SDL_LIBS) $(OPENGL_LIB) -lm -ldl -lX11 -lpthread
+ 
+-CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi -fPIC
++CFLAGS=$(FLAGS) -I$(INCDIR) -I$(INCDIR)/gui -Wall $(SDL_FLAGS) $(ZLIB_FLAGS) -fno-strict-aliasing -ansi -fPIC -fvisibility=hidden
+ TEMP=/tmp
+ CC=gcc
+ CPP=g++
+--- a/include/libtcod.h
++++ b/include/libtcod.h
+@@ -142,8 +142,12 @@
+ #define TCODLIB_API __declspec(dllimport)
+ #endif
+ #else
++#ifdef TCOD_GCC
++#define TCODLIB_API __attribute__((visibility("default")))
++#else
+ #define TCODLIB_API
+ #endif
++#endif
+ 
+ #ifdef __cplusplus
+ extern "C" {
+--- a/include/gui/gui.hpp
++++ b/include/gui/gui.hpp
+@@ -16,8 +16,12 @@
+ #define TCODLIB_GUI_API __declspec(dllimport)
+ #endif
+ #else
++#ifdef TCOD_GCC
++#define TCODLIB_GUI_API __attribute__((visibility("default")))
++#else
+ #define TCODLIB_GUI_API
+ #endif
++#endif
+ 
+ #include "widget.hpp"
+ #include "button.hpp"
