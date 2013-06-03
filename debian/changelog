@@ -1,4 +1,4 @@
-libtcod (1.5.1+dfsg2-1) UNRELEASED; urgency=low
+libtcod (1.5.1+dfsg1-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #704587)
     - repack to remove binaries in original tarball
