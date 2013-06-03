@@ -6,7 +6,7 @@ modules in <libtcod/*.h>.
 
 --- a/include/libtcod.h
 +++ b/include/libtcod.h
-@@ -173,25 +173,25 @@
+@@ -177,25 +177,25 @@
  #define CLAMP(a, b, x)		((x) < (a) ? (a) : ((x) > (b) ? (b) : (x)))
  #define LERP(a, b, x) ( a + x * (b - a) )
  
@@ -1884,7 +1884,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_RANDOM_H
 +#define _TCOD_RANDOM_H
 +
-+#include "mersenne_types.h"
++#include <libtcod/mersenne_types.h>
 +
 +typedef void *TCOD_random_t;
 +
@@ -1943,7 +1943,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_MOUSE_H
 +#define _TCOD_MOUSE_H
 +
-+#include "mouse_types.h"
++#include <libtcod/mouse_types.h>
 +
 +TCODLIB_API void TCOD_mouse_show_cursor(bool visible);
 +TCODLIB_API TCOD_mouse_t TCOD_mouse_get_status();
@@ -2046,7 +2046,7 @@ modules in <libtcod/*.h>.
 +	TCOD_NOISE_DEFAULT = 0
 +} TCOD_noise_type_t;
 +
-+#include "noise_defaults.h"
++#include <libtcod/noise_defaults.h>
 +
 +/* create a new noise object */
 +TCODLIB_API TCOD_noise_t TCOD_noise_new(int dimensions, float hurst, float lacunarity, TCOD_random_t random);
@@ -9533,7 +9533,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_CONSOLE_HPP
 +#define _TCOD_CONSOLE_HPP
 +
-+#include "console_types.h"
++#include <libtcod/console_types.h>
 +
 +/**
 +	@PageName console
@@ -11295,7 +11295,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_FOV_HPP
 +#define _TCOD_FOV_HPP
 +
-+#include "fov_types.h"
++#include <libtcod/fov_types.h>
 +
 +class TCODPath;
 +
@@ -13181,7 +13181,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_RANDOM_HPP
 +#define _TCOD_RANDOM_HPP
 +
-+#include "mersenne_types.h"
++#include <libtcod/mersenne_types.h>
 +
 +/**
 + @PageName random
@@ -13584,7 +13584,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_MOUSE_HPP
 +#define _TCOD_MOUSE_HPP
 +
-+#include "mouse_types.h"
++#include <libtcod/mouse_types.h>
 +
 +class TCODLIB_API TCODMouse {
 +public :
@@ -13991,7 +13991,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_PERLIN_HPP
 +#define _TCOD_PERLIN_HPP
 +
-+#include "noise_defaults.h"
++#include <libtcod/noise_defaults.h>
 +
 +/**
 + @PageName noise
@@ -16143,7 +16143,7 @@ modules in <libtcod/*.h>.
 +#ifndef _TCOD_TEXT_HPP_
 +#define _TCOD_TEXT_HPP_
 +
-+#include "color.hpp"
++#include <libtcod/color.hpp>
 +
 +class TCODLIB_API TCODText {
 +public :
