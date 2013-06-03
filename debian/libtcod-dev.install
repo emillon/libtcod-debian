@@ -1,4 +1,4 @@
 include/libtcod.h usr/include
 include/libtcod.hpp usr/include
 include/libtcod usr/include
-usr/lib/lib*.so
+usr/lib/libtcod.so
