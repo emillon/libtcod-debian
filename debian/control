@@ -1,5 +1,5 @@
 Source: libtcod
-Priority: extra
+Priority: optional
 Maintainer: Etienne Millon <etienne.millon@gmail.com>
 Build-Depends:
  debhelper (>= 8.0.0),
