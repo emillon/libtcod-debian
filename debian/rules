@@ -13,14 +13,8 @@ override_dh_auto_build:
 override_dh_auto_install:
 	mkdir -p debian/tmp/usr/lib
 	install libtcod.so debian/tmp/usr/lib/libtcod.so.$(upstream_version)
-	install libtcodgui.so debian/tmp/usr/lib/libtcodgui.so.$(upstream_version)
-	install libtcodxx.so debian/tmp/usr/lib/libtcodxx.so.$(upstream_version)
 	cd debian/tmp/usr/lib ; ln -s libtcod.so.$(upstream_version) libtcod.so.$(soname)
-	cd debian/tmp/usr/lib ; ln -s libtcodgui.so.$(upstream_version) libtcodgui.so.$(soname)
-	cd debian/tmp/usr/lib ; ln -s libtcodxx.so.$(upstream_version) libtcodxx.so.$(soname)
 	cd debian/tmp/usr/lib ; ln -s libtcod.so.$(upstream_version) libtcod.so
-	cd debian/tmp/usr/lib ; ln -s libtcodgui.so.$(upstream_version) libtcodgui.so
-	cd debian/tmp/usr/lib ; ln -s libtcodxx.so.$(upstream_version) libtcodxx.so
 
 override_dh_auto_clean:
 	make -f makefiles/makefile-linux clean
