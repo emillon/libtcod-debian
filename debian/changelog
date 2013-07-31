@@ -1,6 +1,7 @@
-libtcod (1.5.1+dfsg1-1) UNRELEASED; urgency=low
+libtcod (1.5.1+dfsg1-1~exp1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #704587)
+    - upload to experimental while API is finalized
     - repack to remove binaries in original tarball
   * Patches :
     - setup Makefile
