@@ -8,4 +8,4 @@ libtcod (1.5.1+dfsg1-1~exp1) UNRELEASED; urgency=low
     - fix symbols visibility
     - move headers to a subdirectory
 
- -- Etienne Millon <etienne.millon@gmail.com>  Wed, 03 Apr 2013 11:49:23 +0200
+ -- Etienne Millon <me@emillon.org>  Wed, 03 Apr 2013 11:49:23 +0200

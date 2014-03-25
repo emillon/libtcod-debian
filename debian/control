@@ -1,6 +1,6 @@
 Source: libtcod
 Priority: optional
-Maintainer: Etienne Millon <etienne.millon@gmail.com>
+Maintainer: Etienne Millon <me@emillon.org>
 Build-Depends:
  debhelper (>= 8.0.0),
  libsdl-dev,
