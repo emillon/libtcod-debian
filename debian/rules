@@ -4,10 +4,22 @@ upstream_version = $(shell dpkg-parsechangelog | sed -rne 's/^Version: ([0-9.]+)
 dfsg_version = $(upstream_version)+dfsg1
 soname=1
 
+HEADER_H:=$(wildcard include/*.h)
+HEADER_H:=$(HEADER_H:include/%=%)
+HEADER_HPP:=$(wildcard include/*.hpp)
+HEADER_HPP:=$(HEADER_HPP:include/%=%)
+
 %:
 	dh $@ 
 
 override_dh_auto_build:
+	mkdir include/libtcod
+	for f in $(HEADER_H) $(HEADER_HPP) ; do \
+	    perl -p -i.bak -e '/libtcod\.h/ || s/^#include "(.*)"$$/#include <libtcod\/$$1>/' include/$$f; \
+	    if [ $$f = libtcod.h -o $$f = libtcod.hpp -o $$f = libtcod_int.h ] ; then continue ; fi ; \
+	    mv include/$$f include/libtcod/$$f; \
+	done
+	perl -p -i.bak -e 's/^#include "(wrappers.h)"$$/#include <libtcod\/$$1>/' src/wrappers.c
 	make -f makefiles/makefile-linux release FLAGS="$(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)" LDFLAGS="$(shell dpkg-buildflags --get LDFLAGS)"
 
 override_dh_auto_install:
